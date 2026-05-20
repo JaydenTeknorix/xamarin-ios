@@ -46,6 +46,13 @@ public class HotDogListViewController : UITableViewController
         var hotDog = hotDogs[indexPath.Row];
         var detailVC = new HotDogDetailViewController(hotDog);
 
-        NavigationController?.PushViewController(detailVC, animated: true);
+        UIView.Transition(
+            NavigationController!.View,
+            duration: 0.4,
+            options: UIViewAnimationOptions.TransitionFlipFromRight,
+            animation: () => NavigationController.PushViewController(detailVC, animated: false),
+            completion: null
+        );
     }
-}
+
+    }

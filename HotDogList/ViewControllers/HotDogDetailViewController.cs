@@ -53,7 +53,7 @@ public class HotDogDetailViewController : UIViewController
         NSLayoutConstraint.ActivateConstraints(new[]
         {
             // Name label: centered horizontally, 100pt from the top
-            nameLabel.TopAnchor.ConstraintEqualTo(View.SafeAreaLayoutGuide.TopAnchor, 100),
+            nameLabel.TopAnchor.ConstraintEqualTo(View.SafeAreaLayoutGuide.TopAnchor, 10),
             nameLabel.LeadingAnchor.ConstraintEqualTo(View.LeadingAnchor, 20),
             nameLabel.TrailingAnchor.ConstraintEqualTo(View.TrailingAnchor, -20),
 

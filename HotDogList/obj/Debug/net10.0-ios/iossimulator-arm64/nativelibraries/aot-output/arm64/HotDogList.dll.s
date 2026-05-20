@@ -2194,10 +2194,10 @@ bl _p_32
 .word 0xf9685631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2800c80
+.word 0xd2800140
 .word 0x9102a3a0
 .word 0xf90083a0
-.word 0xd2800c80
+.word 0xd2800140
 bl _p_22
 .word 0xf94083be
 .word 0xfd0003c0
@@ -3205,22 +3205,21 @@ Lme_1a:
 	.align 4
 	.no_dead_strip HotDogList_HotDogListViewController_RowSelected_UIKit_UITableView_Foundation_NSIndexPath
 HotDogList_HotDogListViewController_RowSelected_UIKit_UITableView_Foundation_NSIndexPath:
-.loc 6 45 0 prologue_end
-.word 0xa9b67bfd
+.loc 6 0 0 prologue_end
+.word 0xa9b57bfd
 .word 0x910003fd
-.word 0xa9015bb5
-.word 0xa90263b7
-.word 0xf9001bb9
+.word 0xa90163b7
+.word 0xf90013b9
 .word 0xaa0003f9
-.word 0xf9001fa1
-.word 0xf90023a2
+.word 0xf90017a1
+.word 0xf9001ba2
 
 adrp x16, mono_aot_HotDogList_got@PAGE+0
 add x16, x16, mono_aot_HotDogList_got@PAGEOFF
 ldr x16, [x16, #568]
-.word 0xf90027b0
+.word 0xf9001fb0
 .word 0xf9400211
-.word 0xf9002bb1
+.word 0xf90023b1
 
 adrp x16, mono_aot_HotDogList_got@PAGE+0
 add x16, x16, mono_aot_HotDogList_got@PAGEOFF
@@ -3230,76 +3229,118 @@ ldr x0, [x16, #56]
 bl _p_1
 .word 0xd2800018
 .word 0xd2800017
-.word 0xf94027b1
-.word 0xf9416631
+.word 0xf9401fb1
+.word 0xf9415631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9402bb1
-.word 0xf9400231
+
+adrp x16, mono_aot_HotDogList_got@PAGE+0
+add x16, x16, mono_aot_HotDogList_got@PAGEOFF
+ldr x0, [x16, #576]
+.word 0xd2800401
+.word 0xd2800401
+bl _p_39
+.word 0xf90057a0
+bl _p_40
+.word 0xf9401fb1
+.word 0xf9421631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94027b1
-.word 0xf941e631
+.word 0xf94057a0
+.word 0xaa0003f8
+.word 0xaa1803e0
+.word 0xaa1903e1
+.word 0x91004000
+.word 0xf90053a0
+.word 0xd5033bbf
+.word 0xf94053a0
+.word 0xf9000019
+.word 0xd349fc00
+.word 0x92405800
+
+adrp x16, mono_aot_HotDogList_got@PAGE+0
+add x16, x16, mono_aot_HotDogList_got@PAGEOFF
+ldr x1, [x16, #16]
+.word 0x8b010000
+.word 0xd280003e
+.word 0x3900001e
+.loc 6 45 0
+.word 0xf9401fb1
+.word 0xf9436631
 .word 0xb4000051
 .word 0xd63f0220
 .loc 6 46 0
-.word 0xf94027b1
-.word 0xf9422631
+.word 0xf9401fb1
+.word 0xf943a631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xf9401720
-.word 0xf90047a0
-.word 0xf94023a1
+.word 0xf9004ba0
+.word 0xf9401ba1
 .word 0xaa0103e0
 .word 0x3940003e
 bl _p_37
 .word 0x93407c00
-.word 0xf9004ba0
-.word 0xf94027b1
-.word 0xf942f631
+.word 0xf9004fa0
+.word 0xf9401fb1
+.word 0xf9447631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94047a0
-.word 0xf9404ba1
+.word 0xf9404ba0
+.word 0xf9404fa1
 
 adrp x16, mono_aot_HotDogList_got@PAGE+0
 add x16, x16, mono_aot_HotDogList_got@PAGEOFF
 ldr x15, [x16, #560]
 .word 0x3940001e
 bl _p_38
+.word 0xf90047a0
+.word 0xf9401fb1
+.word 0xf9453631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94047a0
 .word 0xf90043a0
-.word 0xf94027b1
-.word 0xf943b631
+.word 0xaa0003f7
+.loc 6 47 0
+.word 0xf9401fb1
+.word 0xf945a631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94043a0
+.word 0xaa1803e1
+.word 0xf9003ba1
 .word 0xf9003fa0
-.word 0xaa0003f8
-.loc 6 47 0
-.word 0xf94027b1
-.word 0xf9442631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9403fa0
-.word 0xf9003ba0
 
 adrp x16, mono_aot_HotDogList_got@PAGE+0
 add x16, x16, mono_aot_HotDogList_got@PAGEOFF
-ldr x0, [x16, #576]
+ldr x0, [x16, #584]
 bl _p_4
-.word 0xf9403ba1
+.word 0xf9403fa1
 .word 0xf90037a0
-bl _p_39
-.word 0xf94027b1
-.word 0xf944f631
+bl _p_41
+.word 0xf9401fb1
+.word 0xf9469631
 .word 0xb4000051
 .word 0xd63f0220
+.word 0xf9403ba0
+.word 0x91006001
+.word 0xd5033bbf
 .word 0xf94037a0
-.word 0xaa0003f7
+.word 0xf9000020
+.word 0xd349fc21
+.word 0x92405821
+
+adrp x16, mono_aot_HotDogList_got@PAGE+0
+add x16, x16, mono_aot_HotDogList_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
 .loc 6 49 0
-.word 0xf94027b1
-.word 0xf9455631
+.word 0xf9401fb1
+.word 0xf947a631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -3308,50 +3349,103 @@ bl _p_39
 .word 0xf942ac30
 .word 0xd63f0200
 .word 0xf90033a0
-.word 0xf94027b1
-.word 0xf945f631
+.word 0xf9401fb1
+.word 0xf9484631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94033a0
-.word 0xaa0003f6
-.word 0xaa0003e1
-.word 0xaa0003e1
-.word 0xaa0003f5
-.word 0xb5000060
-.word 0xaa1503e0
-.word 0x1400000e
-.word 0xaa1503e0
-.word 0xaa1703e0
-.word 0xd2800020
-.word 0xaa1503e0
-.word 0xaa1703e1
-.word 0xd2800022
-.word 0xf94002a3
-.word 0xf942fc70
+.word 0xf94033a1
+.word 0xaa0103e0
+.word 0xf9400021
+.word 0xf9429030
 .word 0xd63f0200
-.word 0xf94027b1
-.word 0xf9474631
+.word 0xf9002ba0
+.word 0xf9401fb1
+.word 0xf948e631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 50 0
-.word 0xf9402bb1
-.word 0xf9400231
+.word 0xd293335e
+.word 0xf2b3333e
+.word 0xf2d3333e
+.word 0xf2e7fb3e
+.word 0x9e6703c0
+.word 0xd2a00400
+.word 0xaa1803e0
+.word 0xf9002fa0
+.word 0xeb1f001f
+.word 0x10000011
+.word 0x54000820
+
+adrp x16, mono_aot_HotDogList_got@PAGE+0
+add x16, x16, mono_aot_HotDogList_got@PAGEOFF
+ldr x0, [x16, #592]
+.word 0xd2801001
+.word 0xd2801001
+bl _p_39
+.word 0xaa0003e2
+.word 0xf9402fa1
+.word 0xeb1f003f
+.word 0x10000011
+.word 0x54000660
+.word 0xd5033bbf
+.word 0xf9402ba0
+.word 0xf9001041
+.word 0x91008043
+.word 0xd349fc63
+.word 0x92405863
+
+adrp x16, mono_aot_HotDogList_got@PAGE+0
+add x16, x16, mono_aot_HotDogList_got@PAGEOFF
+ldr x4, [x16, #16]
+.word 0x8b040063
+.word 0xd280003e
+.word 0x3900007e
+
+adrp x16, mono_aot_HotDogList_got@PAGE+0
+add x16, x16, mono_aot_HotDogList_got@PAGEOFF
+ldr x1, [x16, #600]
+.word 0xf9002041
+
+adrp x16, mono_aot_HotDogList_got@PAGE+0
+add x16, x16, mono_aot_HotDogList_got@PAGEOFF
+ldr x3, [x16, #608]
+.word 0xf9001443
+.word 0xf9401823
+.word 0xf9000c43
+.word 0xf9401421
+.word 0xf9000841
+.word 0xd2800001
+.word 0xd293335e
+.word 0xf2b3333e
+.word 0xf2d3333e
+.word 0xf2e7fb3e
+.word 0x9e6703c0
+.word 0xd2a00401
+.word 0xd2800003
+bl _p_42
+.word 0xf9401fb1
+.word 0xf94c9631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94027b1
-.word 0xf947c631
+.loc 6 56 0
+.word 0xf9401fb1
+.word 0xf94cd631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94027b1
-.word 0xf9480631
+.word 0xf9401fb1
+.word 0xf94d1631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xa9415bb5
-.word 0xa94263b7
-.word 0xf9401bb9
+.word 0xa94163b7
+.word 0xf94013b9
 .word 0x910003bf
-.word 0xa8ca7bfd
+.word 0xa8cb7bfd
 .word 0xd65f03c0
+.word 0xd28018e0
+.word 0xaa1103e1
+bl _p_13
+.word 0xd2800a20
+.word 0xaa1103e1
+bl _p_13
 
 Lme_1b:
 .text
@@ -3368,7 +3462,7 @@ HotDogList_HotDogListViewController__ctor:
 
 adrp x16, mono_aot_HotDogList_got@PAGE+0
 add x16, x16, mono_aot_HotDogList_got@PAGEOFF
-ldr x16, [x16, #584]
+ldr x16, [x16, #616]
 .word 0xf90023b0
 .word 0xf9400211
 .word 0xf90027b1
@@ -3395,16 +3489,16 @@ bl _p_1
 
 adrp x16, mono_aot_HotDogList_got@PAGE+0
 add x16, x16, mono_aot_HotDogList_got@PAGEOFF
-ldr x0, [x16, #592]
+ldr x0, [x16, #624]
 .word 0xd2800401
 .word 0xd2800401
-bl _p_40
+bl _p_39
 
 adrp x16, mono_aot_HotDogList_got@PAGE+0
 add x16, x16, mono_aot_HotDogList_got@PAGEOFF
-ldr x15, [x16, #600]
+ldr x15, [x16, #632]
 .word 0xf900e7a0
-bl _p_41
+bl _p_43
 .word 0xf94023b1
 .word 0xf942a631
 .word 0xb4000051
@@ -3418,12 +3512,12 @@ bl _p_41
 
 adrp x16, mono_aot_HotDogList_got@PAGE+0
 add x16, x16, mono_aot_HotDogList_got@PAGEOFF
-ldr x0, [x16, #608]
+ldr x0, [x16, #640]
 .word 0xf900dfa0
 
 adrp x16, mono_aot_HotDogList_got@PAGE+0
 add x16, x16, mono_aot_HotDogList_got@PAGEOFF
-ldr x0, [x16, #616]
+ldr x0, [x16, #648]
 .word 0xf900e3a0
 .word 0xd2802560
 .word 0xd2a00000
@@ -3440,7 +3534,7 @@ ldr x0, [x16, #616]
 .word 0xd2a00003
 .word 0xd2a00004
 .word 0xd2800045
-bl _p_42
+bl _p_44
 .word 0x9103a3a0
 .word 0x910263a0
 .word 0xf94077a0
@@ -3454,17 +3548,17 @@ bl _p_42
 
 adrp x16, mono_aot_HotDogList_got@PAGE+0
 add x16, x16, mono_aot_HotDogList_got@PAGEOFF
-ldr x0, [x16, #624]
+ldr x0, [x16, #656]
 .word 0xd2800601
 .word 0xd2800601
-bl _p_40
+bl _p_39
 .word 0xf940dfa1
 .word 0xf940e3a2
 .word 0xf900dba0
 .word 0x910263a3
 .word 0xf9404fa3
 .word 0xf94053a4
-bl _p_43
+bl _p_45
 .word 0xf94023b1
 .word 0xf9463631
 .word 0xb4000051
@@ -3474,9 +3568,9 @@ bl _p_43
 
 adrp x16, mono_aot_HotDogList_got@PAGE+0
 add x16, x16, mono_aot_HotDogList_got@PAGEOFF
-ldr x15, [x16, #632]
+ldr x15, [x16, #664]
 .word 0x3940001e
-bl _p_44
+bl _p_46
 .word 0xf94023b1
 .word 0xf946e631
 .word 0xb4000051
@@ -3490,12 +3584,12 @@ bl _p_44
 
 adrp x16, mono_aot_HotDogList_got@PAGE+0
 add x16, x16, mono_aot_HotDogList_got@PAGEOFF
-ldr x0, [x16, #640]
+ldr x0, [x16, #672]
 .word 0xf900cba0
 
 adrp x16, mono_aot_HotDogList_got@PAGE+0
 add x16, x16, mono_aot_HotDogList_got@PAGEOFF
-ldr x0, [x16, #648]
+ldr x0, [x16, #680]
 .word 0xf900cfa0
 .word 0xd2803820
 .word 0xd2a00000
@@ -3512,7 +3606,7 @@ ldr x0, [x16, #648]
 .word 0xd2a00003
 .word 0xd2a00004
 .word 0xd2800045
-bl _p_42
+bl _p_44
 .word 0x910363a0
 .word 0x910223a0
 .word 0xf9406fa0
@@ -3526,17 +3620,17 @@ bl _p_42
 
 adrp x16, mono_aot_HotDogList_got@PAGE+0
 add x16, x16, mono_aot_HotDogList_got@PAGEOFF
-ldr x0, [x16, #624]
+ldr x0, [x16, #656]
 .word 0xd2800601
 .word 0xd2800601
-bl _p_40
+bl _p_39
 .word 0xf940cba1
 .word 0xf940cfa2
 .word 0xf900c7a0
 .word 0x910223a3
 .word 0xf94047a3
 .word 0xf9404ba4
-bl _p_43
+bl _p_45
 .word 0xf94023b1
 .word 0xf94a7631
 .word 0xb4000051
@@ -3546,9 +3640,9 @@ bl _p_43
 
 adrp x16, mono_aot_HotDogList_got@PAGE+0
 add x16, x16, mono_aot_HotDogList_got@PAGEOFF
-ldr x15, [x16, #632]
+ldr x15, [x16, #664]
 .word 0x3940001e
-bl _p_44
+bl _p_46
 .word 0xf94023b1
 .word 0xf94b2631
 .word 0xb4000051
@@ -3562,12 +3656,12 @@ bl _p_44
 
 adrp x16, mono_aot_HotDogList_got@PAGE+0
 add x16, x16, mono_aot_HotDogList_got@PAGEOFF
-ldr x0, [x16, #656]
+ldr x0, [x16, #688]
 .word 0xf900b7a0
 
 adrp x16, mono_aot_HotDogList_got@PAGE+0
 add x16, x16, mono_aot_HotDogList_got@PAGEOFF
-ldr x0, [x16, #664]
+ldr x0, [x16, #696]
 .word 0xf900bba0
 .word 0xd2803e60
 .word 0xd2a00000
@@ -3584,7 +3678,7 @@ ldr x0, [x16, #664]
 .word 0xd2a00003
 .word 0xd2a00004
 .word 0xd2800045
-bl _p_42
+bl _p_44
 .word 0x910323a0
 .word 0x9101e3a0
 .word 0xf94067a0
@@ -3598,17 +3692,17 @@ bl _p_42
 
 adrp x16, mono_aot_HotDogList_got@PAGE+0
 add x16, x16, mono_aot_HotDogList_got@PAGEOFF
-ldr x0, [x16, #624]
+ldr x0, [x16, #656]
 .word 0xd2800601
 .word 0xd2800601
-bl _p_40
+bl _p_39
 .word 0xf940b7a1
 .word 0xf940bba2
 .word 0xf900b3a0
 .word 0x9101e3a3
 .word 0xf9403fa3
 .word 0xf94043a4
-bl _p_43
+bl _p_45
 .word 0xf94023b1
 .word 0xf94eb631
 .word 0xb4000051
@@ -3618,9 +3712,9 @@ bl _p_43
 
 adrp x16, mono_aot_HotDogList_got@PAGE+0
 add x16, x16, mono_aot_HotDogList_got@PAGEOFF
-ldr x15, [x16, #632]
+ldr x15, [x16, #664]
 .word 0x3940001e
-bl _p_44
+bl _p_46
 .word 0xf94023b1
 .word 0xf94f6631
 .word 0xb4000051
@@ -3634,12 +3728,12 @@ bl _p_44
 
 adrp x16, mono_aot_HotDogList_got@PAGE+0
 add x16, x16, mono_aot_HotDogList_got@PAGEOFF
-ldr x0, [x16, #672]
+ldr x0, [x16, #704]
 .word 0xf900a3a0
 
 adrp x16, mono_aot_HotDogList_got@PAGE+0
 add x16, x16, mono_aot_HotDogList_got@PAGEOFF
-ldr x0, [x16, #680]
+ldr x0, [x16, #712]
 .word 0xf900a7a0
 .word 0xd2802ba0
 .word 0xd2a00000
@@ -3656,7 +3750,7 @@ ldr x0, [x16, #680]
 .word 0xd2a00003
 .word 0xd2a00004
 .word 0xd2800045
-bl _p_42
+bl _p_44
 .word 0x9102e3a0
 .word 0x9101a3a0
 .word 0xf9405fa0
@@ -3670,17 +3764,17 @@ bl _p_42
 
 adrp x16, mono_aot_HotDogList_got@PAGE+0
 add x16, x16, mono_aot_HotDogList_got@PAGEOFF
-ldr x0, [x16, #624]
+ldr x0, [x16, #656]
 .word 0xd2800601
 .word 0xd2800601
-bl _p_40
+bl _p_39
 .word 0xf940a3a1
 .word 0xf940a7a2
 .word 0xf9009fa0
 .word 0x9101a3a3
 .word 0xf94037a3
 .word 0xf9403ba4
-bl _p_43
+bl _p_45
 .word 0xf94023b1
 .word 0xf952f631
 .word 0xb4000051
@@ -3690,9 +3784,9 @@ bl _p_43
 
 adrp x16, mono_aot_HotDogList_got@PAGE+0
 add x16, x16, mono_aot_HotDogList_got@PAGEOFF
-ldr x15, [x16, #632]
+ldr x15, [x16, #664]
 .word 0x3940001e
-bl _p_44
+bl _p_46
 .word 0xf94023b1
 .word 0xf953a631
 .word 0xb4000051
@@ -3706,12 +3800,12 @@ bl _p_44
 
 adrp x16, mono_aot_HotDogList_got@PAGE+0
 add x16, x16, mono_aot_HotDogList_got@PAGEOFF
-ldr x0, [x16, #688]
+ldr x0, [x16, #720]
 .word 0xf9008fa0
 
 adrp x16, mono_aot_HotDogList_got@PAGE+0
 add x16, x16, mono_aot_HotDogList_got@PAGEOFF
-ldr x0, [x16, #696]
+ldr x0, [x16, #728]
 .word 0xf90093a0
 .word 0xd28044a0
 .word 0xd2a00000
@@ -3728,7 +3822,7 @@ ldr x0, [x16, #696]
 .word 0xd2a00003
 .word 0xd2a00004
 .word 0xd2800045
-bl _p_42
+bl _p_44
 .word 0x9102a3a0
 .word 0x910163a0
 .word 0xf94057a0
@@ -3742,17 +3836,17 @@ bl _p_42
 
 adrp x16, mono_aot_HotDogList_got@PAGE+0
 add x16, x16, mono_aot_HotDogList_got@PAGEOFF
-ldr x0, [x16, #624]
+ldr x0, [x16, #656]
 .word 0xd2800601
 .word 0xd2800601
-bl _p_40
+bl _p_39
 .word 0xf9408fa1
 .word 0xf94093a2
 .word 0xf9008ba0
 .word 0x910163a3
 .word 0xf9402fa3
 .word 0xf94033a4
-bl _p_43
+bl _p_45
 .word 0xf94023b1
 .word 0xf9573631
 .word 0xb4000051
@@ -3762,9 +3856,9 @@ bl _p_43
 
 adrp x16, mono_aot_HotDogList_got@PAGE+0
 add x16, x16, mono_aot_HotDogList_got@PAGEOFF
-ldr x15, [x16, #632]
+ldr x15, [x16, #664]
 .word 0x3940001e
-bl _p_44
+bl _p_46
 .word 0xf94023b1
 .word 0xf957e631
 .word 0xb4000051
@@ -3784,7 +3878,7 @@ ldr x2, [x16, #16]
 .word 0x3900003e
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_45
+bl _p_47
 .word 0xf94023b1
 .word 0xf9591631
 .word 0xb4000051
@@ -3803,6 +3897,107 @@ bl _p_45
 Lme_1c:
 .text
 	.align 4
+	.no_dead_strip HotDogList_HotDogListViewController__c__DisplayClass4_0__ctor
+HotDogList_HotDogListViewController__c__DisplayClass4_0__ctor:
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+
+adrp x16, mono_aot_HotDogList_got@PAGE+0
+add x16, x16, mono_aot_HotDogList_got@PAGEOFF
+ldr x16, [x16, #736]
+.word 0xf9000fb0
+.word 0xf9400211
+.word 0xf90013b1
+.word 0xf9400fb1
+.word 0xf9409631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+.word 0xf9400fb1
+.word 0xf940e631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9412631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_1d:
+.text
+	.align 4
+	.no_dead_strip HotDogList_HotDogListViewController__c__DisplayClass4_0__RowSelectedb__0
+HotDogList_HotDogListViewController__c__DisplayClass4_0__RowSelectedb__0:
+.loc 6 53 0 prologue_end
+.word 0xa9bc7bfd
+.word 0x910003fd
+.word 0xf9000bba
+.word 0xaa0003fa
+
+adrp x16, mono_aot_HotDogList_got@PAGE+0
+add x16, x16, mono_aot_HotDogList_got@PAGEOFF
+ldr x16, [x16, #744]
+.word 0xf9000fb0
+.word 0xf9400211
+.word 0xf90013b1
+
+adrp x16, mono_aot_HotDogList_got@PAGE+0
+add x16, x16, mono_aot_HotDogList_got@PAGEOFF
+ldr x0, [x16, #56]
+.word 0xf9400011
+.word 0xb4000051
+bl _p_1
+.word 0xf9400fb1
+.word 0xf9410631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9418631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xf9400b41
+.word 0xaa0103e0
+.word 0xf9400021
+.word 0xf942ac30
+.word 0xd63f0200
+.word 0xf9001ba0
+.word 0xf9400fb1
+.word 0xf9423631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401ba3
+.word 0xaa1a03e0
+.word 0xf9400f41
+.word 0xd2a00000
+.word 0xaa0303e0
+.word 0xd2a00002
+.word 0xf9400063
+.word 0xf942fc70
+.word 0xd63f0200
+.word 0xf9400fb1
+.word 0xf9430631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9434631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bba
+.word 0x910003bf
+.word 0xa8c47bfd
+.word 0xd65f03c0
+
+Lme_1e:
+.text
+	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Predicate_1_T_REF_invoke_bool_T_T_REF
 wrapper_delegate_invoke_System_Predicate_1_T_REF_invoke_bool_T_T_REF:
 .file 7 "<unknown>"
@@ -3819,7 +4014,7 @@ wrapper_delegate_invoke_System_Predicate_1_T_REF_invoke_bool_T_T_REF:
 
 adrp x16, mono_aot_HotDogList_got@PAGE+0
 add x16, x16, mono_aot_HotDogList_got@PAGEOFF
-ldr x16, [x16, #704]
+ldr x16, [x16, #752]
 .word 0xf9002fb0
 .word 0xf9400211
 .word 0xf90033b1
@@ -3833,11 +4028,11 @@ bl _p_1
 
 adrp x16, mono_aot_HotDogList_got@PAGE+0
 add x16, x16, mono_aot_HotDogList_got@PAGEOFF
-ldr x1, [x16, #712]
+ldr x1, [x16, #760]
 .word 0xf9403ba0
 .word 0xf9400c10
 .word 0xb5000050
-bl _p_46
+bl _p_48
 .word 0xd2a00019
 .word 0xd2a00018
 .word 0xd2800017
@@ -3870,7 +4065,7 @@ ldr x0, [x16, #48]
 .word 0xf9437631
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_47
+bl _p_49
 .word 0xaa0003f3
 .word 0xaa1303e0
 .word 0xaa1303e1
@@ -3884,7 +4079,7 @@ bl _p_47
 .word 0xd2800022
 .word 0xd280003e
 .word 0xb900003e
-bl _p_48
+bl _p_50
 .word 0xf9403fa0
 .word 0xf94033b1
 .word 0xf9400231
@@ -4087,7 +4282,7 @@ bl _p_1
 .word 0xaa1103e1
 bl _p_13
 
-Lme_1e:
+Lme_20:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Comparison_1_T_REF_invoke_int_T_T_T_REF_T_REF
@@ -4106,7 +4301,7 @@ wrapper_delegate_invoke_System_Comparison_1_T_REF_invoke_int_T_T_T_REF_T_REF:
 
 adrp x16, mono_aot_HotDogList_got@PAGE+0
 add x16, x16, mono_aot_HotDogList_got@PAGEOFF
-ldr x16, [x16, #720]
+ldr x16, [x16, #768]
 .word 0xf9002fb0
 .word 0xf9400211
 .word 0xf90033b1
@@ -4120,11 +4315,11 @@ bl _p_1
 
 adrp x16, mono_aot_HotDogList_got@PAGE+0
 add x16, x16, mono_aot_HotDogList_got@PAGEOFF
-ldr x1, [x16, #728]
+ldr x1, [x16, #776]
 .word 0xf9403ba0
 .word 0xf9400c10
 .word 0xb5000050
-bl _p_46
+bl _p_48
 .word 0xd2a00018
 .word 0xd2a00017
 .word 0xd2800016
@@ -4157,7 +4352,7 @@ ldr x0, [x16, #48]
 .word 0xf9438631
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_47
+bl _p_49
 .word 0xf9003fa0
 .word 0xf9403fa1
 .word 0xf9403fa0
@@ -4171,7 +4366,7 @@ bl _p_47
 .word 0xd2800022
 .word 0xd280003e
 .word 0xb900003e
-bl _p_48
+bl _p_50
 .word 0xf94043a0
 .word 0xf94033b1
 .word 0xf9400231
@@ -4380,7 +4575,7 @@ bl _p_1
 .word 0xaa1103e1
 bl _p_13
 
-Lme_1f:
+Lme_21:
 .text
 	.align 3
 jit_code_end:
@@ -4419,6 +4614,8 @@ bl HotDogList_HotDogListViewController_RowsInSection_UIKit_UITableView_intptr
 bl HotDogList_HotDogListViewController_GetCell_UIKit_UITableView_Foundation_NSIndexPath
 bl HotDogList_HotDogListViewController_RowSelected_UIKit_UITableView_Foundation_NSIndexPath
 bl HotDogList_HotDogListViewController__ctor
+bl HotDogList_HotDogListViewController__c__DisplayClass4_0__ctor
+bl HotDogList_HotDogListViewController__c__DisplayClass4_0__RowSelectedb__0
 bl method_addresses
 bl wrapper_delegate_invoke_System_Predicate_1_T_REF_invoke_bool_T_T_REF
 bl wrapper_delegate_invoke_System_Comparison_1_T_REF_invoke_int_T_T_T_REF_T_REF
@@ -4448,10 +4645,10 @@ unwind_info:
 	.byte 68,14,80,157,10,158,9,68,13,29,68,153,8,44,12,31,0,84,14,128,9,157,144,1,158,143,1,68,13,29,68,147
 	.byte 142,1,148,141,1,68,149,140,1,150,139,1,68,151,138,1,152,137,1,68,153,136,1,154,135,1,16,12,31,0,68,14
 	.byte 64,157,8,158,7,68,13,29,68,154,6,16,12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,25,12,31,0
-	.byte 68,14,144,1,157,18,158,17,68,13,29,68,149,16,150,15,68,151,14,68,154,13,27,12,31,0,68,14,160,1,157,20
-	.byte 158,19,68,13,29,68,149,18,150,17,68,151,16,152,15,68,153,14,29,12,31,0,68,14,208,3,157,58,158,57,68,13
-	.byte 29,68,149,56,150,55,68,151,54,152,53,68,153,52,154,51,34,12,31,0,68,14,160,1,157,20,158,19,68,13,29,68
-	.byte 147,18,148,17,68,149,16,150,15,68,151,14,152,13,68,153,12,154,11
+	.byte 68,14,144,1,157,18,158,17,68,13,29,68,149,16,150,15,68,151,14,68,154,13,22,12,31,0,68,14,176,1,157,22
+	.byte 158,21,68,13,29,68,151,20,152,19,68,153,18,29,12,31,0,68,14,208,3,157,58,158,57,68,13,29,68,149,56,150
+	.byte 55,68,151,54,152,53,68,153,52,154,51,34,12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,147,18,148,17,68
+	.byte 149,16,150,15,68,151,14,152,13,68,153,12,154,11
 
 .text
 	.align 4
@@ -4462,389 +4659,405 @@ plt__jit_icall_mono_threads_state_poll:
 _p_1:
 adrp x16, mono_aot_HotDogList_got@PAGE+0
 add x16, x16, mono_aot_HotDogList_got@PAGEOFF
-ldr x16, [x16, #744]
+ldr x16, [x16, #792]
 br x16
-.word 634
+.word 673
 	.no_dead_strip plt_UIKit_UIApplication_Main_string___System_Type_System_Type
 plt_UIKit_UIApplication_Main_string___System_Type_System_Type:
 _p_2:
 adrp x16, mono_aot_HotDogList_got@PAGE+0
 add x16, x16, mono_aot_HotDogList_got@PAGEOFF
-ldr x16, [x16, #752]
+ldr x16, [x16, #800]
 br x16
-.word 637
+.word 676
 	.no_dead_strip plt__jit_icall_mono_generic_class_init
 plt__jit_icall_mono_generic_class_init:
 _p_3:
 adrp x16, mono_aot_HotDogList_got@PAGE+0
 add x16, x16, mono_aot_HotDogList_got@PAGEOFF
-ldr x16, [x16, #760]
+ldr x16, [x16, #808]
 br x16
-.word 642
+.word 681
 	.no_dead_strip plt__jit_icall_ves_icall_object_new_specific
 plt__jit_icall_ves_icall_object_new_specific:
 _p_4:
 adrp x16, mono_aot_HotDogList_got@PAGE+0
 add x16, x16, mono_aot_HotDogList_got@PAGEOFF
-ldr x16, [x16, #768]
+ldr x16, [x16, #816]
 br x16
-.word 645
+.word 684
 	.no_dead_strip plt_UIKit_UISceneConfiguration__ctor_string_UIKit_UIWindowSceneSessionRole
 plt_UIKit_UISceneConfiguration__ctor_string_UIKit_UIWindowSceneSessionRole:
 _p_5:
 adrp x16, mono_aot_HotDogList_got@PAGE+0
 add x16, x16, mono_aot_HotDogList_got@PAGEOFF
-ldr x16, [x16, #776]
+ldr x16, [x16, #824]
 br x16
-.word 648
+.word 687
 	.no_dead_strip plt_UIKit_UIApplicationDelegate__ctor
 plt_UIKit_UIApplicationDelegate__ctor:
 _p_6:
 adrp x16, mono_aot_HotDogList_got@PAGE+0
 add x16, x16, mono_aot_HotDogList_got@PAGEOFF
-ldr x16, [x16, #784]
+ldr x16, [x16, #832]
 br x16
-.word 653
+.word 692
 	.no_dead_strip plt_HotDogList_SceneDelegate_get_Window
 plt_HotDogList_SceneDelegate_get_Window:
 _p_7:
 adrp x16, mono_aot_HotDogList_got@PAGE+0
 add x16, x16, mono_aot_HotDogList_got@PAGEOFF
-ldr x16, [x16, #792]
+ldr x16, [x16, #840]
 br x16
-.word 658
+.word 697
 	.no_dead_strip plt_UIKit_UIWindow__ctor_UIKit_UIWindowScene
 plt_UIKit_UIWindow__ctor_UIKit_UIWindowScene:
 _p_8:
 adrp x16, mono_aot_HotDogList_got@PAGE+0
 add x16, x16, mono_aot_HotDogList_got@PAGEOFF
-ldr x16, [x16, #800]
+ldr x16, [x16, #848]
 br x16
-.word 663
+.word 702
 	.no_dead_strip plt_HotDogList_SceneDelegate_set_Window_UIKit_UIWindow
 plt_HotDogList_SceneDelegate_set_Window_UIKit_UIWindow:
 _p_9:
 adrp x16, mono_aot_HotDogList_got@PAGE+0
 add x16, x16, mono_aot_HotDogList_got@PAGEOFF
-ldr x16, [x16, #808]
+ldr x16, [x16, #856]
 br x16
-.word 668
+.word 707
 	.no_dead_strip plt_HotDogList_HotDogListViewController__ctor
 plt_HotDogList_HotDogListViewController__ctor:
 _p_10:
 adrp x16, mono_aot_HotDogList_got@PAGE+0
 add x16, x16, mono_aot_HotDogList_got@PAGEOFF
-ldr x16, [x16, #816]
+ldr x16, [x16, #864]
 br x16
-.word 673
+.word 712
 	.no_dead_strip plt_UIKit_UINavigationController__ctor_UIKit_UIViewController
 plt_UIKit_UINavigationController__ctor_UIKit_UIViewController:
 _p_11:
 adrp x16, mono_aot_HotDogList_got@PAGE+0
 add x16, x16, mono_aot_HotDogList_got@PAGEOFF
-ldr x16, [x16, #824]
+ldr x16, [x16, #872]
 br x16
-.word 678
+.word 717
 	.no_dead_strip plt_UIKit_UIResponder__ctor
 plt_UIKit_UIResponder__ctor:
 _p_12:
 adrp x16, mono_aot_HotDogList_got@PAGE+0
 add x16, x16, mono_aot_HotDogList_got@PAGEOFF
-ldr x16, [x16, #832]
+ldr x16, [x16, #880]
 br x16
-.word 683
+.word 722
 	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
 plt__jit_icall_mono_arch_throw_corlib_exception:
 _p_13:
 adrp x16, mono_aot_HotDogList_got@PAGE+0
 add x16, x16, mono_aot_HotDogList_got@PAGEOFF
-ldr x16, [x16, #840]
+ldr x16, [x16, #888]
 br x16
-.word 688
+.word 727
 	.no_dead_strip plt_HotDogList_HotDog_set_Name_string
 plt_HotDogList_HotDog_set_Name_string:
 _p_14:
 adrp x16, mono_aot_HotDogList_got@PAGE+0
 add x16, x16, mono_aot_HotDogList_got@PAGEOFF
-ldr x16, [x16, #848]
+ldr x16, [x16, #896]
 br x16
-.word 690
+.word 729
 	.no_dead_strip plt_HotDogList_HotDog_set_Description_string
 plt_HotDogList_HotDog_set_Description_string:
 _p_15:
 adrp x16, mono_aot_HotDogList_got@PAGE+0
 add x16, x16, mono_aot_HotDogList_got@PAGEOFF
-ldr x16, [x16, #856]
+ldr x16, [x16, #904]
 br x16
-.word 695
+.word 734
 	.no_dead_strip plt_HotDogList_HotDog_set_Price_System_Decimal
 plt_HotDogList_HotDog_set_Price_System_Decimal:
 _p_16:
 adrp x16, mono_aot_HotDogList_got@PAGE+0
 add x16, x16, mono_aot_HotDogList_got@PAGEOFF
-ldr x16, [x16, #864]
+ldr x16, [x16, #912]
 br x16
-.word 700
+.word 739
 	.no_dead_strip plt_UIKit_UIViewController__ctor
 plt_UIKit_UIViewController__ctor:
 _p_17:
 adrp x16, mono_aot_HotDogList_got@PAGE+0
 add x16, x16, mono_aot_HotDogList_got@PAGEOFF
-ldr x16, [x16, #872]
+ldr x16, [x16, #920]
 br x16
-.word 705
+.word 744
 	.no_dead_strip plt_UIKit_UIViewController_ViewDidLoad
 plt_UIKit_UIViewController_ViewDidLoad:
 _p_18:
 adrp x16, mono_aot_HotDogList_got@PAGE+0
 add x16, x16, mono_aot_HotDogList_got@PAGEOFF
-ldr x16, [x16, #880]
+ldr x16, [x16, #928]
 br x16
-.word 710
+.word 749
 	.no_dead_strip plt_HotDogList_HotDog_get_Name
 plt_HotDogList_HotDog_get_Name:
 _p_19:
 adrp x16, mono_aot_HotDogList_got@PAGE+0
 add x16, x16, mono_aot_HotDogList_got@PAGEOFF
-ldr x16, [x16, #888]
+ldr x16, [x16, #936]
 br x16
-.word 715
+.word 754
 	.no_dead_strip plt_UIKit_UIColor_get_SystemBackground
 plt_UIKit_UIColor_get_SystemBackground:
 _p_20:
 adrp x16, mono_aot_HotDogList_got@PAGE+0
 add x16, x16, mono_aot_HotDogList_got@PAGEOFF
-ldr x16, [x16, #896]
+ldr x16, [x16, #944]
 br x16
-.word 720
+.word 759
 	.no_dead_strip plt_UIKit_UILabel__ctor
 plt_UIKit_UILabel__ctor:
 _p_21:
 adrp x16, mono_aot_HotDogList_got@PAGE+0
 add x16, x16, mono_aot_HotDogList_got@PAGEOFF
-ldr x16, [x16, #904]
+ldr x16, [x16, #952]
 br x16
-.word 725
+.word 764
 	.no_dead_strip plt_System_Runtime_InteropServices_NFloat_op_Implicit_int
 plt_System_Runtime_InteropServices_NFloat_op_Implicit_int:
 _p_22:
 adrp x16, mono_aot_HotDogList_got@PAGE+0
 add x16, x16, mono_aot_HotDogList_got@PAGEOFF
-ldr x16, [x16, #912]
+ldr x16, [x16, #960]
 br x16
-.word 730
+.word 769
 	.no_dead_strip plt_UIKit_UIFont_BoldSystemFontOfSize_System_Runtime_InteropServices_NFloat
 plt_UIKit_UIFont_BoldSystemFontOfSize_System_Runtime_InteropServices_NFloat:
 _p_23:
 adrp x16, mono_aot_HotDogList_got@PAGE+0
 add x16, x16, mono_aot_HotDogList_got@PAGEOFF
-ldr x16, [x16, #920]
+ldr x16, [x16, #968]
 br x16
-.word 733
+.word 772
 	.no_dead_strip plt_HotDogList_HotDog_get_Description
 plt_HotDogList_HotDog_get_Description:
 _p_24:
 adrp x16, mono_aot_HotDogList_got@PAGE+0
 add x16, x16, mono_aot_HotDogList_got@PAGEOFF
-ldr x16, [x16, #928]
+ldr x16, [x16, #976]
 br x16
-.word 738
+.word 777
 	.no_dead_strip plt_UIKit_UIFont_SystemFontOfSize_System_Runtime_InteropServices_NFloat
 plt_UIKit_UIFont_SystemFontOfSize_System_Runtime_InteropServices_NFloat:
 _p_25:
 adrp x16, mono_aot_HotDogList_got@PAGE+0
 add x16, x16, mono_aot_HotDogList_got@PAGEOFF
-ldr x16, [x16, #936]
+ldr x16, [x16, #984]
 br x16
-.word 743
+.word 782
 	.no_dead_strip plt_System_Runtime_CompilerServices_DefaultInterpolatedStringHandler__ctor_int_int
 plt_System_Runtime_CompilerServices_DefaultInterpolatedStringHandler__ctor_int_int:
 _p_26:
 adrp x16, mono_aot_HotDogList_got@PAGE+0
 add x16, x16, mono_aot_HotDogList_got@PAGEOFF
-ldr x16, [x16, #944]
+ldr x16, [x16, #992]
 br x16
-.word 748
+.word 787
 	.no_dead_strip plt_System_Runtime_CompilerServices_DefaultInterpolatedStringHandler_AppendLiteral_string
 plt_System_Runtime_CompilerServices_DefaultInterpolatedStringHandler_AppendLiteral_string:
 _p_27:
 adrp x16, mono_aot_HotDogList_got@PAGE+0
 add x16, x16, mono_aot_HotDogList_got@PAGEOFF
-ldr x16, [x16, #952]
+ldr x16, [x16, #1000]
 br x16
-.word 751
+.word 790
 	.no_dead_strip plt_HotDogList_HotDog_get_Price
 plt_HotDogList_HotDog_get_Price:
 _p_28:
 adrp x16, mono_aot_HotDogList_got@PAGE+0
 add x16, x16, mono_aot_HotDogList_got@PAGEOFF
-ldr x16, [x16, #960]
+ldr x16, [x16, #1008]
 br x16
-.word 754
+.word 793
 	.no_dead_strip plt_System_Runtime_CompilerServices_DefaultInterpolatedStringHandler_AppendFormatted_System_Decimal_System_Decimal_string
 plt_System_Runtime_CompilerServices_DefaultInterpolatedStringHandler_AppendFormatted_System_Decimal_System_Decimal_string:
 _p_29:
 adrp x16, mono_aot_HotDogList_got@PAGE+0
 add x16, x16, mono_aot_HotDogList_got@PAGEOFF
-ldr x16, [x16, #968]
+ldr x16, [x16, #1016]
 br x16
-.word 759
+.word 798
 	.no_dead_strip plt_System_Runtime_CompilerServices_DefaultInterpolatedStringHandler_ToStringAndClear
 plt_System_Runtime_CompilerServices_DefaultInterpolatedStringHandler_ToStringAndClear:
 _p_30:
 adrp x16, mono_aot_HotDogList_got@PAGE+0
 add x16, x16, mono_aot_HotDogList_got@PAGEOFF
-ldr x16, [x16, #976]
+ldr x16, [x16, #1024]
 br x16
-.word 771
+.word 810
 	.no_dead_strip plt_UIKit_UIColor_get_SystemGreen
 plt_UIKit_UIColor_get_SystemGreen:
 _p_31:
 adrp x16, mono_aot_HotDogList_got@PAGE+0
 add x16, x16, mono_aot_HotDogList_got@PAGEOFF
-ldr x16, [x16, #984]
+ldr x16, [x16, #1032]
 br x16
-.word 774
+.word 813
 	.no_dead_strip plt_wrapper_alloc_object_AllocVector_intptr_intptr
 plt_wrapper_alloc_object_AllocVector_intptr_intptr:
 _p_32:
 adrp x16, mono_aot_HotDogList_got@PAGE+0
 add x16, x16, mono_aot_HotDogList_got@PAGEOFF
-ldr x16, [x16, #992]
+ldr x16, [x16, #1040]
 br x16
-.word 779
+.word 818
 	.no_dead_strip plt_UIKit_NSLayoutConstraint_ActivateConstraints_UIKit_NSLayoutConstraint__
 plt_UIKit_NSLayoutConstraint_ActivateConstraints_UIKit_NSLayoutConstraint__:
 _p_33:
 adrp x16, mono_aot_HotDogList_got@PAGE+0
 add x16, x16, mono_aot_HotDogList_got@PAGEOFF
-ldr x16, [x16, #1000]
+ldr x16, [x16, #1048]
 br x16
-.word 787
+.word 826
 	.no_dead_strip plt_UIKit_UITableView_RegisterClassForCellReuse_System_Type_string
 plt_UIKit_UITableView_RegisterClassForCellReuse_System_Type_string:
 _p_34:
 adrp x16, mono_aot_HotDogList_got@PAGE+0
 add x16, x16, mono_aot_HotDogList_got@PAGEOFF
-ldr x16, [x16, #1008]
+ldr x16, [x16, #1056]
 br x16
-.word 792
+.word 831
 	.no_dead_strip plt_System_Collections_Generic_List_1_HotDogList_HotDog_get_Count
 plt_System_Collections_Generic_List_1_HotDogList_HotDog_get_Count:
 _p_35:
 adrp x16, mono_aot_HotDogList_got@PAGE+0
 add x16, x16, mono_aot_HotDogList_got@PAGEOFF
-ldr x16, [x16, #1016]
+ldr x16, [x16, #1064]
 br x16
-.word 797
+.word 836
 	.no_dead_strip plt_UIKit_UITableView_DequeueReusableCell_string_Foundation_NSIndexPath
 plt_UIKit_UITableView_DequeueReusableCell_string_Foundation_NSIndexPath:
 _p_36:
 adrp x16, mono_aot_HotDogList_got@PAGE+0
 add x16, x16, mono_aot_HotDogList_got@PAGEOFF
-ldr x16, [x16, #1024]
+ldr x16, [x16, #1072]
 br x16
-.word 808
+.word 847
 	.no_dead_strip plt_Foundation_NSIndexPath_get_Row
 plt_Foundation_NSIndexPath_get_Row:
 _p_37:
 adrp x16, mono_aot_HotDogList_got@PAGE+0
 add x16, x16, mono_aot_HotDogList_got@PAGEOFF
-ldr x16, [x16, #1032]
+ldr x16, [x16, #1080]
 br x16
-.word 813
+.word 852
 	.no_dead_strip plt_System_Collections_Generic_List_1_HotDogList_HotDog_get_Item_int
 plt_System_Collections_Generic_List_1_HotDogList_HotDog_get_Item_int:
 _p_38:
 adrp x16, mono_aot_HotDogList_got@PAGE+0
 add x16, x16, mono_aot_HotDogList_got@PAGEOFF
-ldr x16, [x16, #1040]
-br x16
-.word 818
-	.no_dead_strip plt_HotDogList_HotDogDetailViewController__ctor_HotDogList_HotDog
-plt_HotDogList_HotDogDetailViewController__ctor_HotDogList_HotDog:
-_p_39:
-adrp x16, mono_aot_HotDogList_got@PAGE+0
-add x16, x16, mono_aot_HotDogList_got@PAGEOFF
-ldr x16, [x16, #1048]
-br x16
-.word 829
-	.no_dead_strip plt_wrapper_alloc_object_AllocSmall_intptr_intptr
-plt_wrapper_alloc_object_AllocSmall_intptr_intptr:
-_p_40:
-adrp x16, mono_aot_HotDogList_got@PAGE+0
-add x16, x16, mono_aot_HotDogList_got@PAGEOFF
-ldr x16, [x16, #1056]
-br x16
-.word 834
-	.no_dead_strip plt_System_Collections_Generic_List_1_HotDogList_HotDog__ctor
-plt_System_Collections_Generic_List_1_HotDogList_HotDog__ctor:
-_p_41:
-adrp x16, mono_aot_HotDogList_got@PAGE+0
-add x16, x16, mono_aot_HotDogList_got@PAGEOFF
-ldr x16, [x16, #1064]
-br x16
-.word 842
-	.no_dead_strip plt_System_Decimal__ctor_int_int_int_bool_byte
-plt_System_Decimal__ctor_int_int_int_bool_byte:
-_p_42:
-adrp x16, mono_aot_HotDogList_got@PAGE+0
-add x16, x16, mono_aot_HotDogList_got@PAGEOFF
-ldr x16, [x16, #1072]
-br x16
-.word 853
-	.no_dead_strip plt_HotDogList_HotDog__ctor_string_string_System_Decimal
-plt_HotDogList_HotDog__ctor_string_string_System_Decimal:
-_p_43:
-adrp x16, mono_aot_HotDogList_got@PAGE+0
-add x16, x16, mono_aot_HotDogList_got@PAGEOFF
-ldr x16, [x16, #1080]
-br x16
-.word 856
-	.no_dead_strip plt_System_Collections_Generic_List_1_HotDogList_HotDog_Add_HotDogList_HotDog
-plt_System_Collections_Generic_List_1_HotDogList_HotDog_Add_HotDogList_HotDog:
-_p_44:
-adrp x16, mono_aot_HotDogList_got@PAGE+0
-add x16, x16, mono_aot_HotDogList_got@PAGEOFF
 ldr x16, [x16, #1088]
 br x16
-.word 861
-	.no_dead_strip plt_UIKit_UITableViewController__ctor
-plt_UIKit_UITableViewController__ctor:
-_p_45:
+.word 857
+	.no_dead_strip plt_wrapper_alloc_object_AllocSmall_intptr_intptr
+plt_wrapper_alloc_object_AllocSmall_intptr_intptr:
+_p_39:
 adrp x16, mono_aot_HotDogList_got@PAGE+0
 add x16, x16, mono_aot_HotDogList_got@PAGEOFF
 ldr x16, [x16, #1096]
 br x16
-.word 872
-	.no_dead_strip plt__jit_icall_mini_init_method_rgctx
-plt__jit_icall_mini_init_method_rgctx:
-_p_46:
+.word 868
+	.no_dead_strip plt_HotDogList_HotDogListViewController__c__DisplayClass4_0__ctor
+plt_HotDogList_HotDogListViewController__c__DisplayClass4_0__ctor:
+_p_40:
 adrp x16, mono_aot_HotDogList_got@PAGE+0
 add x16, x16, mono_aot_HotDogList_got@PAGEOFF
 ldr x16, [x16, #1104]
 br x16
-.word 877
-	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
-plt__jit_icall_mono_thread_interruption_checkpoint:
-_p_47:
+.word 876
+	.no_dead_strip plt_HotDogList_HotDogDetailViewController__ctor_HotDogList_HotDog
+plt_HotDogList_HotDogDetailViewController__ctor_HotDogList_HotDog:
+_p_41:
 adrp x16, mono_aot_HotDogList_got@PAGE+0
 add x16, x16, mono_aot_HotDogList_got@PAGEOFF
 ldr x16, [x16, #1112]
 br x16
-.word 880
-	.no_dead_strip plt__jit_icall_mono_arch_rethrow_exception
-plt__jit_icall_mono_arch_rethrow_exception:
-_p_48:
+.word 881
+	.no_dead_strip plt_UIKit_UIView_Transition_UIKit_UIView_double_UIKit_UIViewAnimationOptions_System_Action_System_Action
+plt_UIKit_UIView_Transition_UIKit_UIView_double_UIKit_UIViewAnimationOptions_System_Action_System_Action:
+_p_42:
 adrp x16, mono_aot_HotDogList_got@PAGE+0
 add x16, x16, mono_aot_HotDogList_got@PAGEOFF
 ldr x16, [x16, #1120]
 br x16
-.word 883
+.word 886
+	.no_dead_strip plt_System_Collections_Generic_List_1_HotDogList_HotDog__ctor
+plt_System_Collections_Generic_List_1_HotDogList_HotDog__ctor:
+_p_43:
+adrp x16, mono_aot_HotDogList_got@PAGE+0
+add x16, x16, mono_aot_HotDogList_got@PAGEOFF
+ldr x16, [x16, #1128]
+br x16
+.word 891
+	.no_dead_strip plt_System_Decimal__ctor_int_int_int_bool_byte
+plt_System_Decimal__ctor_int_int_int_bool_byte:
+_p_44:
+adrp x16, mono_aot_HotDogList_got@PAGE+0
+add x16, x16, mono_aot_HotDogList_got@PAGEOFF
+ldr x16, [x16, #1136]
+br x16
+.word 902
+	.no_dead_strip plt_HotDogList_HotDog__ctor_string_string_System_Decimal
+plt_HotDogList_HotDog__ctor_string_string_System_Decimal:
+_p_45:
+adrp x16, mono_aot_HotDogList_got@PAGE+0
+add x16, x16, mono_aot_HotDogList_got@PAGEOFF
+ldr x16, [x16, #1144]
+br x16
+.word 905
+	.no_dead_strip plt_System_Collections_Generic_List_1_HotDogList_HotDog_Add_HotDogList_HotDog
+plt_System_Collections_Generic_List_1_HotDogList_HotDog_Add_HotDogList_HotDog:
+_p_46:
+adrp x16, mono_aot_HotDogList_got@PAGE+0
+add x16, x16, mono_aot_HotDogList_got@PAGEOFF
+ldr x16, [x16, #1152]
+br x16
+.word 910
+	.no_dead_strip plt_UIKit_UITableViewController__ctor
+plt_UIKit_UITableViewController__ctor:
+_p_47:
+adrp x16, mono_aot_HotDogList_got@PAGE+0
+add x16, x16, mono_aot_HotDogList_got@PAGEOFF
+ldr x16, [x16, #1160]
+br x16
+.word 921
+	.no_dead_strip plt__jit_icall_mini_init_method_rgctx
+plt__jit_icall_mini_init_method_rgctx:
+_p_48:
+adrp x16, mono_aot_HotDogList_got@PAGE+0
+add x16, x16, mono_aot_HotDogList_got@PAGEOFF
+ldr x16, [x16, #1168]
+br x16
+.word 926
+	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
+plt__jit_icall_mono_thread_interruption_checkpoint:
+_p_49:
+adrp x16, mono_aot_HotDogList_got@PAGE+0
+add x16, x16, mono_aot_HotDogList_got@PAGEOFF
+ldr x16, [x16, #1176]
+br x16
+.word 929
+	.no_dead_strip plt__jit_icall_mono_arch_rethrow_exception
+plt__jit_icall_mono_arch_rethrow_exception:
+_p_50:
+adrp x16, mono_aot_HotDogList_got@PAGE+0
+add x16, x16, mono_aot_HotDogList_got@PAGEOFF
+ldr x16, [x16, #1184]
+br x16
+.word 932
 plt_end:
 .section __DATA, __bss
 	.align 3
-.lcomm mono_aot_HotDogList_got, 1128
+.lcomm mono_aot_HotDogList_got, 1192
 got_end:
 .section __TEXT, __const
 	.align 3
@@ -4867,7 +5080,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "C4AF959D-B4C9-4AFB-8367-FFD3BBC6B079"
+	.asciz "035909E2-2740-408B-9B7A-FA31F723F20F"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -4956,15 +5169,15 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 92,92,1128,200,49,34,2,102
-	.long 391195135,0,9050,128,8,8,7,9
-	.long 8388607,0,4,25,9928,0,0,0
-	.long 0,872,264,552,0,464,224,112
-	.long 320,0,584,864,72,0,0,0
+	.long 98,98,1192,200,51,36,2,102
+	.long 391195135,0,9309,128,8,8,7,9
+	.long 8388607,0,4,25,10240,0,0,0
+	.long 0,920,264,600,0,504,224,112
+	.long 352,0,632,912,72,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0
-	.byte 25,212,235,13,159,78,230,195,198,197,148,5,155,27,11,242
+	.byte 153,24,205,101,185,42,193,202,188,218,58,240,133,68,179,106
 	.globl _mono_aot_module_HotDogList_info
 	.align 3
 _mono_aot_module_HotDogList_info:
@@ -6814,56 +7027,88 @@ LDIFF_SYM252=Lme_1a - HotDogList_HotDogListViewController_GetCell_UIKit_UITableV
 Lfde26_end:
 
 .section __DWARF, __debug_info,regular,debug
+LTDIE_29:
 
+	.byte 5
+	.asciz "_<>c__DisplayClass4_0"
+
+	.byte 32,16
+LDIFF_SYM253=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM253
+	.byte 2,35,0,6
+	.asciz "<>4__this"
+
+LDIFF_SYM254=LTDIE_18_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM254
+	.byte 2,35,16,6
+	.asciz "detailVC"
+
+LDIFF_SYM255=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM255
+	.byte 2,35,24,0,7
+	.asciz "_<>c__DisplayClass4_0"
+
+LDIFF_SYM256=LTDIE_29 - Ldebug_info_start
+	.long LDIFF_SYM256
+LTDIE_29_POINTER:
+
+	.byte 13
+LDIFF_SYM257=LTDIE_29 - Ldebug_info_start
+	.long LDIFF_SYM257
+LTDIE_29_REFERENCE:
+
+	.byte 14
+LDIFF_SYM258=LTDIE_29 - Ldebug_info_start
+	.long LDIFF_SYM258
 	.byte 2
 	.asciz "HotDogList.HotDogListViewController:RowSelected"
 	.asciz "HotDogList_HotDogListViewController_RowSelected_UIKit_UITableView_Foundation_NSIndexPath"
 
-	.byte 6,45
+	.byte 6,0
 	.quad HotDogList_HotDogListViewController_RowSelected_UIKit_UITableView_Foundation_NSIndexPath
 	.quad Lme_1b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM253=LTDIE_18_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM253
+LDIFF_SYM259=LTDIE_18_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM259
 	.byte 1,105,3
 	.asciz "tableView"
 
-LDIFF_SYM254=LTDIE_25_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM254
-	.byte 2,141,56,3
+LDIFF_SYM260=LTDIE_25_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM260
+	.byte 2,141,40,3
 	.asciz "indexPath"
 
-LDIFF_SYM255=LTDIE_27_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM255
-	.byte 3,141,192,0,11
+LDIFF_SYM261=LTDIE_27_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM261
+	.byte 2,141,48,11
+	.asciz "CS$<>8__locals0"
+
+LDIFF_SYM262=LTDIE_29_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM262
+	.byte 1,104,11
 	.asciz "hotDog"
 
-LDIFF_SYM256=LTDIE_22_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM256
-	.byte 1,104,11
-	.asciz "detailVC"
-
-LDIFF_SYM257=LTDIE_23_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM257
+LDIFF_SYM263=LTDIE_22_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM263
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM258=Lfde27_end - Lfde27_start
-	.long LDIFF_SYM258
+LDIFF_SYM264=Lfde27_end - Lfde27_start
+	.long LDIFF_SYM264
 Lfde27_start:
 
 	.long 0
 	.align 3
 	.quad HotDogList_HotDogListViewController_RowSelected_UIKit_UITableView_Foundation_NSIndexPath
 
-LDIFF_SYM259=Lme_1b - HotDogList_HotDogListViewController_RowSelected_UIKit_UITableView_Foundation_NSIndexPath
-	.long LDIFF_SYM259
+LDIFF_SYM265=Lme_1b - HotDogList_HotDogListViewController_RowSelected_UIKit_UITableView_Foundation_NSIndexPath
+	.long LDIFF_SYM265
 	.long 0
-	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,149,18,150,17,68,151,16,152,15,68,153,14
+	.byte 12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,151,20,152,19,68,153,18
 	.align 3
 Lfde27_end:
 
@@ -6880,478 +7125,546 @@ Lfde27_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM260=LTDIE_18_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM260
+LDIFF_SYM266=LTDIE_18_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM266
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM261=Lfde28_end - Lfde28_start
-	.long LDIFF_SYM261
+LDIFF_SYM267=Lfde28_end - Lfde28_start
+	.long LDIFF_SYM267
 Lfde28_start:
 
 	.long 0
 	.align 3
 	.quad HotDogList_HotDogListViewController__ctor
 
-LDIFF_SYM262=Lme_1c - HotDogList_HotDogListViewController__ctor
-	.long LDIFF_SYM262
+LDIFF_SYM268=Lme_1c - HotDogList_HotDogListViewController__ctor
+	.long LDIFF_SYM268
 	.long 0
 	.byte 12,31,0,68,14,208,3,157,58,158,57,68,13,29,68,149,56,150,55,68,151,54,152,53,68,153,52,154,51
 	.align 3
 Lfde28_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_29:
+
+	.byte 2
+	.asciz "HotDogList.HotDogListViewController/<>c__DisplayClass4_0:.ctor"
+	.asciz "HotDogList_HotDogListViewController__c__DisplayClass4_0__ctor"
+
+	.byte 0,0
+	.quad HotDogList_HotDogListViewController__c__DisplayClass4_0__ctor
+	.quad Lme_1d
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM269=LTDIE_29_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM269
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM270=Lfde29_end - Lfde29_start
+	.long LDIFF_SYM270
+Lfde29_start:
+
+	.long 0
+	.align 3
+	.quad HotDogList_HotDogListViewController__c__DisplayClass4_0__ctor
+
+LDIFF_SYM271=Lme_1d - HotDogList_HotDogListViewController__c__DisplayClass4_0__ctor
+	.long LDIFF_SYM271
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.align 3
+Lfde29_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "HotDogList.HotDogListViewController/<>c__DisplayClass4_0:<RowSelected>b__0"
+	.asciz "HotDogList_HotDogListViewController__c__DisplayClass4_0__RowSelectedb__0"
+
+	.byte 6,53
+	.quad HotDogList_HotDogListViewController__c__DisplayClass4_0__RowSelectedb__0
+	.quad Lme_1e
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM272=LTDIE_29_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM272
+	.byte 1,106,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM273=Lfde30_end - Lfde30_start
+	.long LDIFF_SYM273
+Lfde30_start:
+
+	.long 0
+	.align 3
+	.quad HotDogList_HotDogListViewController__c__DisplayClass4_0__RowSelectedb__0
+
+LDIFF_SYM274=Lme_1e - HotDogList_HotDogListViewController__c__DisplayClass4_0__RowSelectedb__0
+	.long LDIFF_SYM274
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
+	.align 3
+Lfde30_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_30:
 
 	.byte 5
 	.asciz "System_Int32"
 
 	.byte 20,16
-LDIFF_SYM263=LTDIE_9 - Ldebug_info_start
-	.long LDIFF_SYM263
+LDIFF_SYM275=LTDIE_9 - Ldebug_info_start
+	.long LDIFF_SYM275
 	.byte 2,35,0,6
 	.asciz "m_value"
 
-LDIFF_SYM264=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM264
+LDIFF_SYM276=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM276
 	.byte 2,35,16,0,7
 	.asciz "System_Int32"
 
-LDIFF_SYM265=LTDIE_29 - Ldebug_info_start
-	.long LDIFF_SYM265
-LTDIE_29_POINTER:
-
-	.byte 13
-LDIFF_SYM266=LTDIE_29 - Ldebug_info_start
-	.long LDIFF_SYM266
-LTDIE_29_REFERENCE:
-
-	.byte 14
-LDIFF_SYM267=LTDIE_29 - Ldebug_info_start
-	.long LDIFF_SYM267
-LTDIE_30:
-
-	.byte 5
-	.asciz "System_Array"
-
-	.byte 16,16
-LDIFF_SYM268=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM268
-	.byte 2,35,0,0,7
-	.asciz "System_Array"
-
-LDIFF_SYM269=LTDIE_30 - Ldebug_info_start
-	.long LDIFF_SYM269
+LDIFF_SYM277=LTDIE_30 - Ldebug_info_start
+	.long LDIFF_SYM277
 LTDIE_30_POINTER:
 
 	.byte 13
-LDIFF_SYM270=LTDIE_30 - Ldebug_info_start
-	.long LDIFF_SYM270
+LDIFF_SYM278=LTDIE_30 - Ldebug_info_start
+	.long LDIFF_SYM278
 LTDIE_30_REFERENCE:
 
 	.byte 14
-LDIFF_SYM271=LTDIE_30 - Ldebug_info_start
-	.long LDIFF_SYM271
+LDIFF_SYM279=LTDIE_30 - Ldebug_info_start
+	.long LDIFF_SYM279
+LTDIE_31:
+
+	.byte 5
+	.asciz "System_Array"
+
+	.byte 16,16
+LDIFF_SYM280=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM280
+	.byte 2,35,0,0,7
+	.asciz "System_Array"
+
+LDIFF_SYM281=LTDIE_31 - Ldebug_info_start
+	.long LDIFF_SYM281
+LTDIE_31_POINTER:
+
+	.byte 13
+LDIFF_SYM282=LTDIE_31 - Ldebug_info_start
+	.long LDIFF_SYM282
+LTDIE_31_REFERENCE:
+
+	.byte 14
+LDIFF_SYM283=LTDIE_31 - Ldebug_info_start
+	.long LDIFF_SYM283
+LTDIE_36:
+
+	.byte 5
+	.asciz "System_Reflection_MemberInfo"
+
+	.byte 16,16
+LDIFF_SYM284=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM284
+	.byte 2,35,0,0,7
+	.asciz "System_Reflection_MemberInfo"
+
+LDIFF_SYM285=LTDIE_36 - Ldebug_info_start
+	.long LDIFF_SYM285
+LTDIE_36_POINTER:
+
+	.byte 13
+LDIFF_SYM286=LTDIE_36 - Ldebug_info_start
+	.long LDIFF_SYM286
+LTDIE_36_REFERENCE:
+
+	.byte 14
+LDIFF_SYM287=LTDIE_36 - Ldebug_info_start
+	.long LDIFF_SYM287
 LTDIE_35:
 
 	.byte 5
-	.asciz "System_Reflection_MemberInfo"
+	.asciz "System_Reflection_MethodBase"
 
 	.byte 16,16
-LDIFF_SYM272=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM272
+LDIFF_SYM288=LTDIE_36 - Ldebug_info_start
+	.long LDIFF_SYM288
 	.byte 2,35,0,0,7
-	.asciz "System_Reflection_MemberInfo"
+	.asciz "System_Reflection_MethodBase"
 
-LDIFF_SYM273=LTDIE_35 - Ldebug_info_start
-	.long LDIFF_SYM273
+LDIFF_SYM289=LTDIE_35 - Ldebug_info_start
+	.long LDIFF_SYM289
 LTDIE_35_POINTER:
 
 	.byte 13
-LDIFF_SYM274=LTDIE_35 - Ldebug_info_start
-	.long LDIFF_SYM274
+LDIFF_SYM290=LTDIE_35 - Ldebug_info_start
+	.long LDIFF_SYM290
 LTDIE_35_REFERENCE:
 
 	.byte 14
-LDIFF_SYM275=LTDIE_35 - Ldebug_info_start
-	.long LDIFF_SYM275
+LDIFF_SYM291=LTDIE_35 - Ldebug_info_start
+	.long LDIFF_SYM291
 LTDIE_34:
 
 	.byte 5
-	.asciz "System_Reflection_MethodBase"
+	.asciz "System_Reflection_MethodInfo"
 
 	.byte 16,16
-LDIFF_SYM276=LTDIE_35 - Ldebug_info_start
-	.long LDIFF_SYM276
+LDIFF_SYM292=LTDIE_35 - Ldebug_info_start
+	.long LDIFF_SYM292
 	.byte 2,35,0,0,7
-	.asciz "System_Reflection_MethodBase"
+	.asciz "System_Reflection_MethodInfo"
 
-LDIFF_SYM277=LTDIE_34 - Ldebug_info_start
-	.long LDIFF_SYM277
+LDIFF_SYM293=LTDIE_34 - Ldebug_info_start
+	.long LDIFF_SYM293
 LTDIE_34_POINTER:
 
 	.byte 13
-LDIFF_SYM278=LTDIE_34 - Ldebug_info_start
-	.long LDIFF_SYM278
+LDIFF_SYM294=LTDIE_34 - Ldebug_info_start
+	.long LDIFF_SYM294
 LTDIE_34_REFERENCE:
 
 	.byte 14
-LDIFF_SYM279=LTDIE_34 - Ldebug_info_start
-	.long LDIFF_SYM279
-LTDIE_33:
-
-	.byte 5
-	.asciz "System_Reflection_MethodInfo"
-
-	.byte 16,16
-LDIFF_SYM280=LTDIE_34 - Ldebug_info_start
-	.long LDIFF_SYM280
-	.byte 2,35,0,0,7
-	.asciz "System_Reflection_MethodInfo"
-
-LDIFF_SYM281=LTDIE_33 - Ldebug_info_start
-	.long LDIFF_SYM281
-LTDIE_33_POINTER:
-
-	.byte 13
-LDIFF_SYM282=LTDIE_33 - Ldebug_info_start
-	.long LDIFF_SYM282
-LTDIE_33_REFERENCE:
-
-	.byte 14
-LDIFF_SYM283=LTDIE_33 - Ldebug_info_start
-	.long LDIFF_SYM283
-LTDIE_39:
+LDIFF_SYM295=LTDIE_34 - Ldebug_info_start
+	.long LDIFF_SYM295
+LTDIE_40:
 
 	.byte 5
 	.asciz "System_Reflection_LoaderAllocatorScout"
 
 	.byte 24,16
-LDIFF_SYM284=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM284
+LDIFF_SYM296=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM296
 	.byte 2,35,0,6
 	.asciz "m_native"
 
-LDIFF_SYM285=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM285
+LDIFF_SYM297=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM297
 	.byte 2,35,16,0,7
 	.asciz "System_Reflection_LoaderAllocatorScout"
 
-LDIFF_SYM286=LTDIE_39 - Ldebug_info_start
-	.long LDIFF_SYM286
-LTDIE_39_POINTER:
+LDIFF_SYM298=LTDIE_40 - Ldebug_info_start
+	.long LDIFF_SYM298
+LTDIE_40_POINTER:
 
 	.byte 13
-LDIFF_SYM287=LTDIE_39 - Ldebug_info_start
-	.long LDIFF_SYM287
-LTDIE_39_REFERENCE:
+LDIFF_SYM299=LTDIE_40 - Ldebug_info_start
+	.long LDIFF_SYM299
+LTDIE_40_REFERENCE:
 
 	.byte 14
-LDIFF_SYM288=LTDIE_39 - Ldebug_info_start
-	.long LDIFF_SYM288
-LTDIE_38:
+LDIFF_SYM300=LTDIE_40 - Ldebug_info_start
+	.long LDIFF_SYM300
+LTDIE_39:
 
 	.byte 5
 	.asciz "System_Reflection_LoaderAllocator"
 
 	.byte 48,16
-LDIFF_SYM289=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM289
+LDIFF_SYM301=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM301
 	.byte 2,35,0,6
 	.asciz "m_scout"
 
-LDIFF_SYM290=LTDIE_39_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM290
+LDIFF_SYM302=LTDIE_40_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM302
 	.byte 2,35,16,6
 	.asciz "m_slots"
 
-LDIFF_SYM291=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM291
+LDIFF_SYM303=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM303
 	.byte 2,35,24,6
 	.asciz "m_hashes"
 
-LDIFF_SYM292=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM292
+LDIFF_SYM304=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM304
 	.byte 2,35,32,6
 	.asciz "m_nslots"
 
-LDIFF_SYM293=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM293
+LDIFF_SYM305=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM305
 	.byte 2,35,40,0,7
 	.asciz "System_Reflection_LoaderAllocator"
 
-LDIFF_SYM294=LTDIE_38 - Ldebug_info_start
-	.long LDIFF_SYM294
-LTDIE_38_POINTER:
+LDIFF_SYM306=LTDIE_39 - Ldebug_info_start
+	.long LDIFF_SYM306
+LTDIE_39_POINTER:
 
 	.byte 13
-LDIFF_SYM295=LTDIE_38 - Ldebug_info_start
-	.long LDIFF_SYM295
-LTDIE_38_REFERENCE:
+LDIFF_SYM307=LTDIE_39 - Ldebug_info_start
+	.long LDIFF_SYM307
+LTDIE_39_REFERENCE:
 
 	.byte 14
-LDIFF_SYM296=LTDIE_38 - Ldebug_info_start
-	.long LDIFF_SYM296
-LTDIE_37:
+LDIFF_SYM308=LTDIE_39 - Ldebug_info_start
+	.long LDIFF_SYM308
+LTDIE_38:
 
 	.byte 5
 	.asciz "System_Type"
 
 	.byte 32,16
-LDIFF_SYM297=LTDIE_35 - Ldebug_info_start
-	.long LDIFF_SYM297
+LDIFF_SYM309=LTDIE_36 - Ldebug_info_start
+	.long LDIFF_SYM309
 	.byte 2,35,0,6
 	.asciz "_impl"
 
-LDIFF_SYM298=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM298
+LDIFF_SYM310=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM310
 	.byte 2,35,16,6
 	.asciz "m_keepalive"
 
-LDIFF_SYM299=LTDIE_38_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM299
+LDIFF_SYM311=LTDIE_39_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM311
 	.byte 2,35,24,0,7
 	.asciz "System_Type"
 
-LDIFF_SYM300=LTDIE_37 - Ldebug_info_start
-	.long LDIFF_SYM300
-LTDIE_37_POINTER:
+LDIFF_SYM312=LTDIE_38 - Ldebug_info_start
+	.long LDIFF_SYM312
+LTDIE_38_POINTER:
 
 	.byte 13
-LDIFF_SYM301=LTDIE_37 - Ldebug_info_start
-	.long LDIFF_SYM301
-LTDIE_37_REFERENCE:
+LDIFF_SYM313=LTDIE_38 - Ldebug_info_start
+	.long LDIFF_SYM313
+LTDIE_38_REFERENCE:
 
 	.byte 14
-LDIFF_SYM302=LTDIE_37 - Ldebug_info_start
-	.long LDIFF_SYM302
-LTDIE_36:
+LDIFF_SYM314=LTDIE_38 - Ldebug_info_start
+	.long LDIFF_SYM314
+LTDIE_37:
 
 	.byte 5
 	.asciz "System_DelegateData"
 
 	.byte 40,16
-LDIFF_SYM303=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM303
+LDIFF_SYM315=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM315
 	.byte 2,35,0,6
 	.asciz "target_type"
 
-LDIFF_SYM304=LTDIE_37_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM304
+LDIFF_SYM316=LTDIE_38_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM316
 	.byte 2,35,16,6
 	.asciz "method_name"
 
-LDIFF_SYM305=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM305
+LDIFF_SYM317=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM317
 	.byte 2,35,24,6
 	.asciz "curried_first_arg"
 
-LDIFF_SYM306=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM306
+LDIFF_SYM318=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM318
 	.byte 2,35,32,0,7
 	.asciz "System_DelegateData"
 
-LDIFF_SYM307=LTDIE_36 - Ldebug_info_start
-	.long LDIFF_SYM307
-LTDIE_36_POINTER:
+LDIFF_SYM319=LTDIE_37 - Ldebug_info_start
+	.long LDIFF_SYM319
+LTDIE_37_POINTER:
 
 	.byte 13
-LDIFF_SYM308=LTDIE_36 - Ldebug_info_start
-	.long LDIFF_SYM308
-LTDIE_36_REFERENCE:
+LDIFF_SYM320=LTDIE_37 - Ldebug_info_start
+	.long LDIFF_SYM320
+LTDIE_37_REFERENCE:
 
 	.byte 14
-LDIFF_SYM309=LTDIE_36 - Ldebug_info_start
-	.long LDIFF_SYM309
-LTDIE_32:
+LDIFF_SYM321=LTDIE_37 - Ldebug_info_start
+	.long LDIFF_SYM321
+LTDIE_33:
 
 	.byte 5
 	.asciz "System_Delegate"
 
 	.byte 120,16
-LDIFF_SYM310=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM310
+LDIFF_SYM322=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM322
 	.byte 2,35,0,6
 	.asciz "method_ptr"
 
-LDIFF_SYM311=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM311
+LDIFF_SYM323=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM323
 	.byte 2,35,16,6
 	.asciz "invoke_impl"
 
-LDIFF_SYM312=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM312
+LDIFF_SYM324=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM324
 	.byte 2,35,24,6
 	.asciz "_target"
 
-LDIFF_SYM313=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM313
+LDIFF_SYM325=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM325
 	.byte 2,35,32,6
 	.asciz "method"
 
-LDIFF_SYM314=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM314
+LDIFF_SYM326=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM326
 	.byte 2,35,40,6
 	.asciz "delegate_trampoline"
 
-LDIFF_SYM315=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM315
+LDIFF_SYM327=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM327
 	.byte 2,35,48,6
 	.asciz "extra_arg"
 
-LDIFF_SYM316=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM316
+LDIFF_SYM328=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM328
 	.byte 2,35,56,6
 	.asciz "method_code"
 
-LDIFF_SYM317=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM317
+LDIFF_SYM329=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM329
 	.byte 2,35,64,6
 	.asciz "interp_method"
 
-LDIFF_SYM318=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM318
+LDIFF_SYM330=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM330
 	.byte 2,35,72,6
 	.asciz "interp_invoke_impl"
 
-LDIFF_SYM319=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM319
+LDIFF_SYM331=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM331
 	.byte 2,35,80,6
 	.asciz "method_info"
 
-LDIFF_SYM320=LTDIE_33_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM320
+LDIFF_SYM332=LTDIE_34_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM332
 	.byte 2,35,88,6
 	.asciz "original_method_info"
 
-LDIFF_SYM321=LTDIE_33_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM321
+LDIFF_SYM333=LTDIE_34_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM333
 	.byte 2,35,96,6
 	.asciz "data"
 
-LDIFF_SYM322=LTDIE_36_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM322
+LDIFF_SYM334=LTDIE_37_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM334
 	.byte 2,35,104,6
 	.asciz "method_is_virtual"
 
-LDIFF_SYM323=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM323
+LDIFF_SYM335=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM335
 	.byte 2,35,112,6
 	.asciz "bound"
 
-LDIFF_SYM324=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM324
+LDIFF_SYM336=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM336
 	.byte 2,35,113,0,7
 	.asciz "System_Delegate"
 
-LDIFF_SYM325=LTDIE_32 - Ldebug_info_start
-	.long LDIFF_SYM325
-LTDIE_32_POINTER:
+LDIFF_SYM337=LTDIE_33 - Ldebug_info_start
+	.long LDIFF_SYM337
+LTDIE_33_POINTER:
 
 	.byte 13
-LDIFF_SYM326=LTDIE_32 - Ldebug_info_start
-	.long LDIFF_SYM326
-LTDIE_32_REFERENCE:
+LDIFF_SYM338=LTDIE_33 - Ldebug_info_start
+	.long LDIFF_SYM338
+LTDIE_33_REFERENCE:
 
 	.byte 14
-LDIFF_SYM327=LTDIE_32 - Ldebug_info_start
-	.long LDIFF_SYM327
-LTDIE_31:
+LDIFF_SYM339=LTDIE_33 - Ldebug_info_start
+	.long LDIFF_SYM339
+LTDIE_32:
 
 	.byte 5
 	.asciz "System_MulticastDelegate"
 
 	.byte 128,1,16
-LDIFF_SYM328=LTDIE_32 - Ldebug_info_start
-	.long LDIFF_SYM328
+LDIFF_SYM340=LTDIE_33 - Ldebug_info_start
+	.long LDIFF_SYM340
 	.byte 2,35,0,6
 	.asciz "delegates"
 
-LDIFF_SYM329=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM329
+LDIFF_SYM341=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM341
 	.byte 2,35,120,0,7
 	.asciz "System_MulticastDelegate"
 
-LDIFF_SYM330=LTDIE_31 - Ldebug_info_start
-	.long LDIFF_SYM330
-LTDIE_31_POINTER:
+LDIFF_SYM342=LTDIE_32 - Ldebug_info_start
+	.long LDIFF_SYM342
+LTDIE_32_POINTER:
 
 	.byte 13
-LDIFF_SYM331=LTDIE_31 - Ldebug_info_start
-	.long LDIFF_SYM331
-LTDIE_31_REFERENCE:
+LDIFF_SYM343=LTDIE_32 - Ldebug_info_start
+	.long LDIFF_SYM343
+LTDIE_32_REFERENCE:
 
 	.byte 14
-LDIFF_SYM332=LTDIE_31 - Ldebug_info_start
-	.long LDIFF_SYM332
+LDIFF_SYM344=LTDIE_32 - Ldebug_info_start
+	.long LDIFF_SYM344
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Predicate`1<T_REF>:invoke_bool_T"
 	.asciz "wrapper_delegate_invoke_System_Predicate_1_T_REF_invoke_bool_T_T_REF"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Predicate_1_T_REF_invoke_bool_T_T_REF
-	.quad Lme_1e
+	.quad Lme_20
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM333=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM333
+LDIFF_SYM345=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM345
 	.byte 3,141,208,0,3
 	.asciz "param0"
 
-LDIFF_SYM334=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM334
+LDIFF_SYM346=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM346
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM335=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM335
+LDIFF_SYM347=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM347
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM336=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM336
+LDIFF_SYM348=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM348
 	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM337=LTDIE_30_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM337
+LDIFF_SYM349=LTDIE_31_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM349
 	.byte 1,103,11
 	.asciz "V_3"
 
-LDIFF_SYM338=LTDIE_31_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM338
+LDIFF_SYM350=LTDIE_32_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM350
 	.byte 1,102,11
 	.asciz "V_4"
 
-LDIFF_SYM339=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM339
+LDIFF_SYM351=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM351
 	.byte 1,101,11
 	.asciz "V_5"
 
-LDIFF_SYM340=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM340
+LDIFF_SYM352=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM352
 	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM341=Lfde29_end - Lfde29_start
-	.long LDIFF_SYM341
-Lfde29_start:
+LDIFF_SYM353=Lfde31_end - Lfde31_start
+	.long LDIFF_SYM353
+Lfde31_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Predicate_1_T_REF_invoke_bool_T_T_REF
 
-LDIFF_SYM342=Lme_1e - wrapper_delegate_invoke_System_Predicate_1_T_REF_invoke_bool_T_T_REF
-	.long LDIFF_SYM342
+LDIFF_SYM354=Lme_20 - wrapper_delegate_invoke_System_Predicate_1_T_REF_invoke_bool_T_T_REF
+	.long LDIFF_SYM354
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,147,18,148,17,68,149,16,150,15,68,151,14,152,13,68,153,12
 	.byte 154,11
 	.align 3
-Lfde29_end:
+Lfde31_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -7361,72 +7674,72 @@ Lfde29_end:
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Comparison_1_T_REF_invoke_int_T_T_T_REF_T_REF
-	.quad Lme_1f
+	.quad Lme_21
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM343=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM343
+LDIFF_SYM355=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM355
 	.byte 3,141,208,0,3
 	.asciz "param0"
 
-LDIFF_SYM344=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM344
+LDIFF_SYM356=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM356
 	.byte 1,105,3
 	.asciz "param1"
 
-LDIFF_SYM345=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM345
+LDIFF_SYM357=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM357
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM346=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM346
+LDIFF_SYM358=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM358
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM347=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM347
+LDIFF_SYM359=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM359
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM348=LTDIE_30_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM348
+LDIFF_SYM360=LTDIE_31_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM360
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM349=LTDIE_31_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM349
+LDIFF_SYM361=LTDIE_32_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM361
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM350=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM350
+LDIFF_SYM362=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM362
 	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM351=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM351
+LDIFF_SYM363=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM363
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM352=Lfde30_end - Lfde30_start
-	.long LDIFF_SYM352
-Lfde30_start:
+LDIFF_SYM364=Lfde32_end - Lfde32_start
+	.long LDIFF_SYM364
+Lfde32_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Comparison_1_T_REF_invoke_int_T_T_T_REF_T_REF
 
-LDIFF_SYM353=Lme_1f - wrapper_delegate_invoke_System_Comparison_1_T_REF_invoke_int_T_T_T_REF_T_REF
-	.long LDIFF_SYM353
+LDIFF_SYM365=Lme_21 - wrapper_delegate_invoke_System_Comparison_1_T_REF_invoke_int_T_T_T_REF_T_REF
+	.long LDIFF_SYM365
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,147,18,148,17,68,149,16,150,15,68,151,14,152,13,68,153,12
 	.byte 154,11
 	.align 3
-Lfde30_end:
+Lfde32_end:
 
 .section __DWARF, __debug_info,regular,debug
 
