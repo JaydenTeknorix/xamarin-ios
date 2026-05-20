@@ -1,0 +1,1 @@
+-v --force --timestamp=none --sign - --entitlements /Users/jayden.ferrao/Desktop/xamarinIOS/xamarin-ios/HotDogList/obj/Debug/net10.0-ios/iossimulator-arm64/Entitlements.xcent /Users/jayden.ferrao/Desktop/xamarinIOS/xamarin-ios/HotDogList/bin/Debug/net10.0-ios/iossimulator-arm64/HotDogList.app

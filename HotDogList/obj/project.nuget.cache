@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "1Hy+fzWXE0A=",
+  "success": true,
+  "projectFilePath": "/Users/jayden.ferrao/Desktop/xamarinIOS/xamarin-ios/HotDogList/HotDogList.csproj",
+  "expectedPackageFiles": [
+    "/Users/jayden.ferrao/.nuget/packages/microsoft.net.illink.tasks/10.0.8/microsoft.net.illink.tasks.10.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}
