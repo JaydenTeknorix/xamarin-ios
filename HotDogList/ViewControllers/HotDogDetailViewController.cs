@@ -45,14 +45,25 @@ public class HotDogDetailViewController : UIViewController
             TranslatesAutoresizingMaskIntoConstraints = false
         };
 
+        // Buy button
+        var buyButton = new UIButton(UIButtonType.System);
+        buyButton.SetTitle("Buy", UIControlState.Normal);
+        buyButton.TitleLabel!.Font = UIFont.BoldSystemFontOfSize(18);
+        buyButton.BackgroundColor = UIColor.SystemOrange;
+        buyButton.SetTitleColor(UIColor.White, UIControlState.Normal);
+        buyButton.Layer.CornerRadius = 10;
+        buyButton.TranslatesAutoresizingMaskIntoConstraints = false;
+        buyButton.TouchUpInside += OnBuyTapped;
+
         View.AddSubview(nameLabel);
         View.AddSubview(descriptionLabel);
         View.AddSubview(priceLabel);
+        View.AddSubview(buyButton);
 
         // Position the labels using Auto Layout
         NSLayoutConstraint.ActivateConstraints(new[]
         {
-            // Name label: centered horizontally, 100pt from the top
+            // Name label: 10pt from safe area top
             nameLabel.TopAnchor.ConstraintEqualTo(View.SafeAreaLayoutGuide.TopAnchor, 10),
             nameLabel.LeadingAnchor.ConstraintEqualTo(View.LeadingAnchor, 20),
             nameLabel.TrailingAnchor.ConstraintEqualTo(View.TrailingAnchor, -20),
@@ -66,6 +77,43 @@ public class HotDogDetailViewController : UIViewController
             priceLabel.TopAnchor.ConstraintEqualTo(descriptionLabel.BottomAnchor, 16),
             priceLabel.LeadingAnchor.ConstraintEqualTo(View.LeadingAnchor, 20),
             priceLabel.TrailingAnchor.ConstraintEqualTo(View.TrailingAnchor, -20),
+
+            // Buy button: 24pt below price, full width with padding
+            buyButton.TopAnchor.ConstraintEqualTo(priceLabel.BottomAnchor, 24),
+            buyButton.LeadingAnchor.ConstraintEqualTo(View.LeadingAnchor, 20),
+            buyButton.TrailingAnchor.ConstraintEqualTo(View.TrailingAnchor, -20),
+            buyButton.HeightAnchor.ConstraintEqualTo(50),
         });
+    }
+
+    public override void ViewWillDisappear(bool animated)
+    {
+        base.ViewWillDisappear(animated);
+
+        // Apply flip animation when navigating back
+        if (IsMovingFromParentViewController)
+        {
+            UIView.Transition(
+                NavigationController!.View,
+                duration: 0.4,
+                options: UIViewAnimationOptions.TransitionFlipFromLeft,
+                animation: null,
+                completion: null
+            );
+        }
+    }
+
+    private void OnBuyTapped(object? sender, EventArgs e)
+    {
+        var alert = UIAlertController.Create(
+            title: "Thank You!",
+            message: $"You bought a {hotDog.Name} for ${hotDog.Price:F2}.",
+            preferredStyle: UIAlertControllerStyle.Alert
+        );
+
+        alert.AddAction(UIAlertAction.Create("OK", UIAlertActionStyle.Default, null));
+        alert.AddAction(UIAlertAction.Create("Cancel", UIAlertActionStyle.Cancel, null));
+
+        PresentViewController(alert, animated: true, completionHandler: null);
     }
 }
