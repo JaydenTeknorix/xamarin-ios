@@ -1,23 +1,35 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <_BundleResourceWithLogicalName Include="obj/Debug/net10.0-ios/iossimulator-arm64/ibtool/LaunchScreen.storyboardc/222-view-223.nib">
+    <_BundleResourceWithLogicalName Include="obj/Debug/net10.0-ios/iossimulator-arm64/ibtool-link/MenuScreen.storyboardc/MenuScreen.nib">
       <Optimize>false</Optimize>
-      <InterfaceDefinition>LaunchScreen.storyboard</InterfaceDefinition>
+      <LogicalName>MenuScreen.storyboardc/MenuScreen.nib</LogicalName>
+      <OriginalItemSpec>obj/Debug/net10.0-ios/iossimulator-arm64/ibtool-link/MenuScreen.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/Debug/net10.0-ios/iossimulator-arm64/ibtool-link/MenuScreen.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib">
+      <Optimize>false</Optimize>
+      <LogicalName>MenuScreen.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</LogicalName>
+      <OriginalItemSpec>obj/Debug/net10.0-ios/iossimulator-arm64/ibtool-link/MenuScreen.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/Debug/net10.0-ios/iossimulator-arm64/ibtool-link/MenuScreen.storyboardc/Info.plist">
+      <Optimize>false</Optimize>
+      <LogicalName>MenuScreen.storyboardc/Info.plist</LogicalName>
+      <OriginalItemSpec>obj/Debug/net10.0-ios/iossimulator-arm64/ibtool-link/MenuScreen.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/Debug/net10.0-ios/iossimulator-arm64/ibtool-link/LaunchScreen.storyboardc/222-view-223.nib">
+      <Optimize>false</Optimize>
       <LogicalName>LaunchScreen.storyboardc/222-view-223.nib</LogicalName>
-      <OriginalItemSpec>obj/Debug/net10.0-ios/iossimulator-arm64/ibtool/LaunchScreen.storyboardc</OriginalItemSpec>
+      <OriginalItemSpec>obj/Debug/net10.0-ios/iossimulator-arm64/ibtool-link/LaunchScreen.storyboardc</OriginalItemSpec>
     </_BundleResourceWithLogicalName>
-    <_BundleResourceWithLogicalName Include="obj/Debug/net10.0-ios/iossimulator-arm64/ibtool/LaunchScreen.storyboardc/Info.plist">
+    <_BundleResourceWithLogicalName Include="obj/Debug/net10.0-ios/iossimulator-arm64/ibtool-link/LaunchScreen.storyboardc/Info.plist">
       <Optimize>false</Optimize>
-      <InterfaceDefinition>LaunchScreen.storyboard</InterfaceDefinition>
       <LogicalName>LaunchScreen.storyboardc/Info.plist</LogicalName>
-      <OriginalItemSpec>obj/Debug/net10.0-ios/iossimulator-arm64/ibtool/LaunchScreen.storyboardc</OriginalItemSpec>
+      <OriginalItemSpec>obj/Debug/net10.0-ios/iossimulator-arm64/ibtool-link/LaunchScreen.storyboardc</OriginalItemSpec>
     </_BundleResourceWithLogicalName>
-    <_BundleResourceWithLogicalName Include="obj/Debug/net10.0-ios/iossimulator-arm64/ibtool/LaunchScreen.storyboardc/UIViewController-222.nib">
+    <_BundleResourceWithLogicalName Include="obj/Debug/net10.0-ios/iossimulator-arm64/ibtool-link/LaunchScreen.storyboardc/UIViewController-222.nib">
       <Optimize>false</Optimize>
-      <InterfaceDefinition>LaunchScreen.storyboard</InterfaceDefinition>
       <LogicalName>LaunchScreen.storyboardc/UIViewController-222.nib</LogicalName>
-      <OriginalItemSpec>obj/Debug/net10.0-ios/iossimulator-arm64/ibtool/LaunchScreen.storyboardc</OriginalItemSpec>
+      <OriginalItemSpec>obj/Debug/net10.0-ios/iossimulator-arm64/ibtool-link/LaunchScreen.storyboardc</OriginalItemSpec>
     </_BundleResourceWithLogicalName>
   </ItemGroup>
 </Project>

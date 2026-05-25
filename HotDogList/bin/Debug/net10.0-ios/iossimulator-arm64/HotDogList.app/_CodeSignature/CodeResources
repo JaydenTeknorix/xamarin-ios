@@ -18,15 +18,15 @@
 		</data>
 		<key>HotDogList.aotdata.arm64</key>
 		<data>
-		41je2jnu1XJUs3WSeL7I8dtOKRc=
+		ud69MaBNMCDV35tkDADrIwXMZnQ=
 		</data>
 		<key>HotDogList.dll</key>
 		<data>
-		zmmJH28EYR72vqE1KIZruWHSiII=
+		g6tqypkeTBzKH8wzQujYestI+Lk=
 		</data>
 		<key>HotDogList.pdb</key>
 		<data>
-		G0MF1dIgTHqw69chvirM8ZIbp4w=
+		W8MZukBoqBP8VFIvdkFy+kn6T8U=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/222-view-223.nib</key>
 		<data>
-		4/tGr2QvRAoY5w5l87WVtYkRHaI=
+		BA7YkRFQvSj0O/b3tlqXMMhax94=
 		</data>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -44,17 +44,41 @@
 		<data>
 		wSjh8ktQpO7HJtRbVwcnxygRET4=
 		</data>
+		<key>Main.storyboardc/Info.plist</key>
+		<data>
+		AgQeoStKPq2SgbFwwu/16pxqecc=
+		</data>
+		<key>Main.storyboardc/TestScreen.nib</key>
+		<data>
+		LyYWG6qBwKrfcFLW/0F79+LjV0I=
+		</data>
+		<key>Main.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
+		<data>
+		ZXipTNK2wBdWV+H2tdb+xy+CrtI=
+		</data>
+		<key>MenuScreen.storyboardc/Info.plist</key>
+		<data>
+		CWzbW8OQEzmwCqUvx5PhDQH8xhY=
+		</data>
+		<key>MenuScreen.storyboardc/MenuScreen.nib</key>
+		<data>
+		6GX9jo9JnEEtl2rWQTR3stRrY/I=
+		</data>
+		<key>MenuScreen.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
+		<data>
+		BrhNtcwpE8yKhBOFXycQHo7TPHU=
+		</data>
 		<key>Microsoft.iOS.aotdata.arm64</key>
 		<data>
-		uqplON1V0TAVrvARxi81RHgmXD8=
+		n2TdpFmPO8wmO+Ucwe/lH85aOfI=
 		</data>
 		<key>Microsoft.iOS.dll</key>
 		<data>
-		VoepxJ6mi1VnwEAna/hfhqiBdsk=
+		pZC/F9tr44JMDIcAXeLKogPTbcg=
 		</data>
 		<key>Microsoft.iOS.pdb</key>
 		<data>
-		fGMzYsaK/DYA4jWjFSOyYK2aQyI=
+		IO4H16YXe9fyhA3go5BZsHM5VmI=
 		</data>
 		<key>MonoTouchDebugConfiguration.txt</key>
 		<data>
@@ -126,7 +150,7 @@
 		</data>
 		<key>System.Net.Http.aotdata.arm64</key>
 		<data>
-		AlfjpXSAKRLXBttWG2OpYikWyFI=
+		SU8iUHD8EIegiyiQ2oy+IIFR8a0=
 		</data>
 		<key>System.Net.Http.dll</key>
 		<data>
@@ -222,7 +246,7 @@
 		</data>
 		<key>aot-instances.aotdata.arm64</key>
 		<data>
-		Yc7fUcm08LhU5dUwLAdGAxGWh1g=
+		9dX0DTaMA8ewHUkGOzGixakhPxs=
 		</data>
 		<key>libSystem.Globalization.Native.dylib</key>
 		<data>
@@ -300,28 +324,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			q10Ou2AzPsFgzaIQL0vCCsWxlKmzgsbUr67WJdb7oQ4=
+			9GODA4iwww3a/TOEDpL4NKnywdsMZOyeCOKz4Z7DH9U=
 			</data>
 		</dict>
 		<key>HotDogList.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TKCYWnT1q9wRbsXYOUVy7IwZxBEhTIiEDJvAZTsrVok=
+			6NaKdtSZrL00UPazCS/YlgmyCiM0ZsJZpwn0lophqgc=
 			</data>
 		</dict>
 		<key>HotDogList.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eX+1Vdv+Ewmj+gyynT2OQLbsRxoAKdmHYsQBPjaYpU8=
+			ZaTdHyylvCvtcmNr/HC/D8w/En55acBVsnPe+t6Z/fA=
 			</data>
 		</dict>
 		<key>LaunchScreen.storyboardc/222-view-223.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8o3/tyTp1itI3yHwhcUj0uAm9rDmUxT9OmfyX9CUBGw=
+			WnyWR+Z4vGGyMSTZJWWlWMG324usTHReq/htb8EYizs=
 			</data>
 		</dict>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
@@ -338,25 +362,67 @@
 			2caG7j0iyIVpeEQj1hBmm6DeFbYSznUaTJIqhCMhzg4=
 			</data>
 		</dict>
+		<key>Main.storyboardc/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			aggc7qcb2a9yK+arFzjZiyfs9xjIvmiDQaUQmJ2RpcA=
+			</data>
+		</dict>
+		<key>Main.storyboardc/TestScreen.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			u16AmqtsD99W0BA8vXOkpBgpxx+UgKfHmwYONRlGQ1E=
+			</data>
+		</dict>
+		<key>Main.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			nVukyIKl+MHTe1l9+ivL0JTqMrbyjwD/qS5Gjo7ZwIY=
+			</data>
+		</dict>
+		<key>MenuScreen.storyboardc/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			GTOh7FSARWoXraiQY62y8jMasfsGFPb2393YDZrsctA=
+			</data>
+		</dict>
+		<key>MenuScreen.storyboardc/MenuScreen.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			fpnthbwq38diZ+GuDbwC0Dyg0FCuUjqgKMlxf8xpO80=
+			</data>
+		</dict>
+		<key>MenuScreen.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			SC64aXOeXaj5NEOd8LpHrB4B8QUbuGHsfE0CPaPcjgU=
+			</data>
+		</dict>
 		<key>Microsoft.iOS.aotdata.arm64</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6ukbQZr9AHkvdadryZ1Y3BBNxF0rRHoxQDh9VJa8kNs=
+			KpTDcahb8s0TL39O0QQHdNrVUpjC0OKIO0Iw7P80ouc=
 			</data>
 		</dict>
 		<key>Microsoft.iOS.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			agYVCgqJACxQLJg28i2IhCO0Kzx+u5X78xoIs/teH0A=
+			rHo5Vg3v5BTzmnsQV1hJk7uLi/RLxXW9X9rm60E0aRQ=
 			</data>
 		</dict>
 		<key>Microsoft.iOS.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kLUR8xnQ8ErjWR0YY2hPvMebVoTfz8+tZOKHTkyDErY=
+			XksbU9JIIy2b7JDIAESZ4QYN7Ppm3SsL6quc2MoqDA4=
 			</data>
 		</dict>
 		<key>MonoTouchDebugConfiguration.txt</key>
@@ -475,7 +541,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wuECM9AVrRDdoRM3plRx3NC8PH33ngBmf4BMZmheCgY=
+			s9SxFXScBFNjk3HXGkgSj3vSH89AO0EFWklKNXrQ2rw=
 			</data>
 		</dict>
 		<key>System.Net.Http.dll</key>
@@ -643,7 +709,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			EkQby3MQu5OYhi1Ekbcqe6AMWVw1XSnTRiKSSfzF1lc=
+			Yz5vlgCRhdUed9Pv8ftccJTj/rhXFf3L/MJiKISb8A8=
 			</data>
 		</dict>
 		<key>libSystem.Globalization.Native.dylib</key>

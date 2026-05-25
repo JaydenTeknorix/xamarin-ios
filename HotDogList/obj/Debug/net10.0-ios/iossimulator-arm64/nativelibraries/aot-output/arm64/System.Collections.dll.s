@@ -15160,7 +15160,7 @@ _mono_aot_file_info:
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0
-	.byte 51,147,44,232,30,7,205,223,111,224,190,154,35,44,240,22
+	.byte 119,189,216,99,199,128,114,201,143,100,57,119,16,63,17,197
 	.globl _mono_aot_module_System_Collections_info
 	.align 3
 _mono_aot_module_System_Collections_info:

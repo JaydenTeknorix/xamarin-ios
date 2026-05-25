@@ -19302,7 +19302,7 @@ _mono_aot_file_info:
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0
-	.byte 124,248,201,245,24,31,153,86,70,152,125,120,208,160,197,219
+	.byte 184,47,72,204,134,229,20,223,132,120,208,149,73,48,147,101
 	.globl _mono_aot_module_System_Collections_Concurrent_info
 	.align 3
 _mono_aot_module_System_Collections_Concurrent_info:
