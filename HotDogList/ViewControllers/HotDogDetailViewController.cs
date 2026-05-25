@@ -13,10 +13,11 @@ public class HotDogDetailViewController : UIViewController
     {
         base.ViewDidLoad();
 
+        // Main Screen title label
         Title = hotDog.Name;
         View!.BackgroundColor = UIColor.SystemBackground;
 
-        // Name label at the top
+        // Name label
         var nameLabel = new UILabel
         {
             Text = hotDog.Name,
@@ -25,7 +26,7 @@ public class HotDogDetailViewController : UIViewController
             TranslatesAutoresizingMaskIntoConstraints = false
         };
 
-        // Description label below
+        // Description label
         var descriptionLabel = new UILabel
         {
             Text = hotDog.Description,
@@ -45,6 +46,16 @@ public class HotDogDetailViewController : UIViewController
             TranslatesAutoresizingMaskIntoConstraints = false
         };
 
+        // Badge label
+        var badgeLabel = new UILabel
+        {
+            Text = hotDog.Badge,
+            Font = UIFont.SystemFontOfSize(20),
+            TextAlignment = UITextAlignment.Right,
+            TextColor = UIColor.SystemRed,
+            TranslatesAutoresizingMaskIntoConstraints = false
+        };
+
         // Buy button
         var buyButton = new UIButton(UIButtonType.System);
         buyButton.SetTitle("Buy", UIControlState.Normal);
@@ -58,6 +69,7 @@ public class HotDogDetailViewController : UIViewController
         View.AddSubview(nameLabel);
         View.AddSubview(descriptionLabel);
         View.AddSubview(priceLabel);
+        View.AddSubview(badgeLabel);
         View.AddSubview(buyButton);
 
         // Position the labels using Auto Layout
@@ -77,6 +89,11 @@ public class HotDogDetailViewController : UIViewController
             priceLabel.TopAnchor.ConstraintEqualTo(descriptionLabel.BottomAnchor, 16),
             priceLabel.LeadingAnchor.ConstraintEqualTo(View.LeadingAnchor, 20),
             priceLabel.TrailingAnchor.ConstraintEqualTo(View.TrailingAnchor, -20),
+
+            // Badge Label: 16pt below the description label
+            badgeLabel.TopAnchor.ConstraintEqualTo(descriptionLabel.BottomAnchor, 16),
+            badgeLabel.LeadingAnchor.ConstraintEqualTo(View.LeadingAnchor, 20),
+            badgeLabel.TrailingAnchor.ConstraintEqualTo(View.TrailingAnchor, -20),
 
             // Buy button: 24pt below price, full width with padding
             buyButton.TopAnchor.ConstraintEqualTo(priceLabel.BottomAnchor, 24),
@@ -111,8 +128,14 @@ public class HotDogDetailViewController : UIViewController
             preferredStyle: UIAlertControllerStyle.Alert
         );
 
-        alert.AddAction(UIAlertAction.Create("OK", UIAlertActionStyle.Default, null));
-        alert.AddAction(UIAlertAction.Create("Cancel", UIAlertActionStyle.Cancel, null));
+        var okAction = UIAlertAction.Create("OK", UIAlertActionStyle.Default, null);
+        okAction.SetValueForKey(UIColor.SystemGreen, new Foundation.NSString("titleTextColor"));
+
+        var cancelAction = UIAlertAction.Create("Cancel", UIAlertActionStyle.Cancel, null);
+        cancelAction.SetValueForKey(UIColor.SystemRed, new Foundation.NSString("titleTextColor"));
+
+        alert.AddAction(okAction);
+        alert.AddAction(cancelAction);
 
         PresentViewController(alert, animated: true, completionHandler: null);
     }

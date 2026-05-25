@@ -9,18 +9,40 @@ public class SceneDelegate : UIResponder, IUIWindowSceneDelegate {
 	[Export ("scene:willConnectToSession:options:")]
 	public void WillConnect (UIScene scene, UISceneSession session, UISceneConnectionOptions connectionOptions)
 	{
-		// Use this method to optionally configure and attach the UIWindow 'Window' to the provided UIWindowScene 'scene'.
-		// Since we are not using a storyboard, the 'Window' property needs to be initialized and attached to the scene.
-		// This delegate does not imply the connecting scene or session are new (see UIApplicationDelegate 'GetConfiguration' instead).
 		if (scene is UIWindowScene windowScene) {
 			Window ??= new UIWindow (windowScene);
 
-			// Start at the list screen, wrapped in a navigation controller
-			// so we can push to the detail screen when a row is tapped
+			// Tab 1 — Hot Dogs list
 			var listVC = new HotDogListViewController();
-			var navController = new UINavigationController(listVC);
+			var hotDogsNav = new UINavigationController(listVC);
+			hotDogsNav.TabBarItem = new UITabBarItem(
+				title: "Hot Dogs",
+				image: UIImage.GetSystemImage("fork.knife"),
+				selectedImage: UIImage.GetSystemImage("fork.knife")
+			);
 
-			Window.RootViewController = navController;
+			// Tab 2 — Home
+			var homeVC = new HomeViewController();
+			var homeNav = new UINavigationController(homeVC);
+			homeNav.TabBarItem = new UITabBarItem(
+				title: "Home",
+				image: UIImage.GetSystemImage("house"),
+				selectedImage: UIImage.GetSystemImage("house.fill")
+			);
+
+			// Tab 3 — Profile
+			var profileVC = new ProfileViewController();
+			var profileNav = new UINavigationController(profileVC);
+			profileNav.TabBarItem = new UITabBarItem(
+				title: "Profile",
+				image: UIImage.GetSystemImage("person"),
+				selectedImage: UIImage.GetSystemImage("person.fill")
+			);
+
+			var tabBar = new UITabBarController();
+			tabBar.ViewControllers = new UIViewController[] { hotDogsNav, homeNav, profileNav };
+
+			Window.RootViewController = tabBar;
 			Window.MakeKeyAndVisible ();
 		}
 	}

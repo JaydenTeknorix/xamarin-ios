@@ -32,7 +32,7 @@
 		<dict>
 			<key>affected-items</key>
 			<array>
-				<string>./AppIcon.appiconset/(null)[2d][Icon180.png]</string>
+				<string>./AppIcon.appiconset/(null)[2d][app-icon.png]</string>
 			</array>
 			<key>catalog</key>
 			<string>/Users/jayden.ferrao/Desktop/xamarinIOS/xamarin-ios/HotDogList/obj/Debug/net10.0-ios/iossimulator-arm64/actool/cloned-assets/Assets.xcassets</string>
@@ -44,19 +44,7 @@
 		<dict>
 			<key>affected-items</key>
 			<array>
-				<string>./AppIcon.appiconset/[][iphone][60x60][][][3x][][][][]</string>
-			</array>
-			<key>catalog</key>
-			<string>/Users/jayden.ferrao/Desktop/xamarinIOS/xamarin-ios/HotDogList/obj/Debug/net10.0-ios/iossimulator-arm64/actool/cloned-assets/Assets.xcassets</string>
-			<key>message</key>
-			<string>AppIcon.appiconset/app-icon.png is 620x622 but should be 180x180.</string>
-			<key>type</key>
-			<string>Ambiguous Content</string>
-		</dict>
-		<dict>
-			<key>affected-items</key>
-			<array>
-				<string>./AppIcon.appiconset/(null)[2d][Icon180.png]</string>
+				<string>./AppIcon.appiconset/(null)[2d][app-icon.png]</string>
 			</array>
 			<key>catalog</key>
 			<string>/Users/jayden.ferrao/Desktop/xamarinIOS/xamarin-ios/HotDogList/obj/Debug/net10.0-ios/iossimulator-arm64/actool/cloned-assets/Assets.xcassets</string>
@@ -68,36 +56,12 @@
 		<dict>
 			<key>affected-items</key>
 			<array>
-				<string>./AppIcon.appiconset/[][iphone][60x60][][][3x][][][][]</string>
-			</array>
-			<key>catalog</key>
-			<string>/Users/jayden.ferrao/Desktop/xamarinIOS/xamarin-ios/HotDogList/obj/Debug/net10.0-ios/iossimulator-arm64/actool/cloned-assets/Assets.xcassets</string>
-			<key>message</key>
-			<string>AppIcon.appiconset/app-icon.png is 620x622 but should be 180x180.</string>
-			<key>type</key>
-			<string>Ambiguous Content</string>
-		</dict>
-		<dict>
-			<key>affected-items</key>
-			<array>
-				<string>./AppIcon.appiconset/(null)[2d][Icon180.png]</string>
+				<string>./AppIcon.appiconset/(null)[2d][app-icon.png]</string>
 			</array>
 			<key>catalog</key>
 			<string>/Users/jayden.ferrao/Desktop/xamarinIOS/xamarin-ios/HotDogList/obj/Debug/net10.0-ios/iossimulator-arm64/actool/cloned-assets/Assets.xcassets</string>
 			<key>message</key>
 			<string>The app icon set "AppIcon" has an unassigned child.</string>
-			<key>type</key>
-			<string>Ambiguous Content</string>
-		</dict>
-		<dict>
-			<key>affected-items</key>
-			<array>
-				<string>./AppIcon.appiconset/[][iphone][60x60][][][3x][][][][]</string>
-			</array>
-			<key>catalog</key>
-			<string>/Users/jayden.ferrao/Desktop/xamarinIOS/xamarin-ios/HotDogList/obj/Debug/net10.0-ios/iossimulator-arm64/actool/cloned-assets/Assets.xcassets</string>
-			<key>message</key>
-			<string>AppIcon.appiconset/app-icon.png is 620x622 but should be 180x180.</string>
 			<key>type</key>
 			<string>Ambiguous Content</string>
 		</dict>

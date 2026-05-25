@@ -16,10 +16,23 @@ static void xamarin_invoke_registration_methods ()
 extern void *mono_aot_module_aot_instances_info;
 extern void *mono_aot_module_HotDogList_info;
 extern void *mono_aot_module_System_Collections_Concurrent_info;
+extern void *mono_aot_module_System_Collections_NonGeneric_info;
 extern void *mono_aot_module_System_Collections_info;
+extern void *mono_aot_module_System_Console_info;
 extern void *mono_aot_module_System_Diagnostics_DiagnosticSource_info;
+extern void *mono_aot_module_System_IO_Pipelines_info;
+extern void *mono_aot_module_System_Memory_info;
+extern void *mono_aot_module_System_Net_Http_info;
+extern void *mono_aot_module_System_Net_Primitives_info;
+extern void *mono_aot_module_System_Net_Requests_info;
+extern void *mono_aot_module_System_Net_Security_info;
+extern void *mono_aot_module_System_Private_Uri_info;
 extern void *mono_aot_module_System_Runtime_InteropServices_info;
 extern void *mono_aot_module_System_Runtime_info;
+extern void *mono_aot_module_System_Security_Cryptography_info;
+extern void *mono_aot_module_System_Text_Encodings_Web_info;
+extern void *mono_aot_module_System_Text_Json_info;
+extern void *mono_aot_module_System_Text_RegularExpressions_info;
 extern void *mono_aot_module_System_Private_CoreLib_info;
 extern void *mono_aot_module_Microsoft_iOS_info;
 
@@ -28,10 +41,23 @@ void xamarin_register_modules_impl ()
 	mono_aot_register_module (mono_aot_module_aot_instances_info);
 	mono_aot_register_module (mono_aot_module_HotDogList_info);
 	mono_aot_register_module (mono_aot_module_System_Collections_Concurrent_info);
+	mono_aot_register_module (mono_aot_module_System_Collections_NonGeneric_info);
 	mono_aot_register_module (mono_aot_module_System_Collections_info);
+	mono_aot_register_module (mono_aot_module_System_Console_info);
 	mono_aot_register_module (mono_aot_module_System_Diagnostics_DiagnosticSource_info);
+	mono_aot_register_module (mono_aot_module_System_IO_Pipelines_info);
+	mono_aot_register_module (mono_aot_module_System_Memory_info);
+	mono_aot_register_module (mono_aot_module_System_Net_Http_info);
+	mono_aot_register_module (mono_aot_module_System_Net_Primitives_info);
+	mono_aot_register_module (mono_aot_module_System_Net_Requests_info);
+	mono_aot_register_module (mono_aot_module_System_Net_Security_info);
+	mono_aot_register_module (mono_aot_module_System_Private_Uri_info);
 	mono_aot_register_module (mono_aot_module_System_Runtime_InteropServices_info);
 	mono_aot_register_module (mono_aot_module_System_Runtime_info);
+	mono_aot_register_module (mono_aot_module_System_Security_Cryptography_info);
+	mono_aot_register_module (mono_aot_module_System_Text_Encodings_Web_info);
+	mono_aot_register_module (mono_aot_module_System_Text_Json_info);
+	mono_aot_register_module (mono_aot_module_System_Text_RegularExpressions_info);
 	mono_aot_register_module (mono_aot_module_System_Private_CoreLib_info);
 	mono_aot_register_module (mono_aot_module_Microsoft_iOS_info);
 

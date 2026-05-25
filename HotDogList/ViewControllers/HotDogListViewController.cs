@@ -1,25 +1,64 @@
+using System.Net.Http;
+using System.Net.Http.Json;
+
 namespace HotDogList;
 
 public class HotDogListViewController : UITableViewController
 {
-    // Sample data
-    private List<HotDog> hotDogs = new List<HotDog>
-    {
-        new HotDog("Classic HotDog",    "A simple beef hot dog with mustard and ketchup.",           2.99m),
-        new HotDog("Chicago HotDog",    "Topped with relish, onions, tomato, pickle, and sport peppers.", 4.49m),
-        new HotDog("Chili HotDog",      "Smothered in hearty chili and shredded cheddar cheese.",    4.99m),
-        new HotDog("Corn HotDog",       "Battered in sweet cornmeal and deep fried on a stick.",     3.49m),
-        new HotDog("Bacon HotDog",      "Wrapped in crispy bacon and grilled to perfection.",        5.49m),
-    };
+    private const string ApiUrl = "https://gist.githubusercontent.com/JaydenTeknorix/2ccf47d3781213c1fa963b2db2cd29e3/raw/31f5232175de9a9e6da4391e21e201a24d08a96c/hotdogs.json";
+
+    private static readonly HttpClient httpClient = new HttpClient();
+    private List<HotDog> hotDogs = new List<HotDog>();
 
     public override void ViewDidLoad()
     {
         base.ViewDidLoad();
 
         Title = "Hot Dogs";
-
-        // Register a basic cell style — no extra setup needed
         TableView.RegisterClassForCellReuse(typeof(UITableViewCell), "cell");
+
+        // Fetch hot dogs from the API
+        _ = LoadHotDogsAsync();
+    }
+
+    private async Task LoadHotDogsAsync()
+    {
+        try
+        {
+            // Fetch raw JSON string first so we can log it
+            var json = await httpClient.GetStringAsync(ApiUrl);
+            Console.WriteLine(json);
+
+            // Now deserialize
+            var result = System.Text.Json.JsonSerializer.Deserialize<List<HotDog>>(json);
+
+            if (result != null)
+            {
+                hotDogs = result;
+
+                // Reload the table on the main thread
+                InvokeOnMainThread(() => TableView.ReloadData());
+            }
+            else
+            {
+                Console.WriteLine("Deserialization returned null.");
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error loading hot dogs: {ex}");
+
+            InvokeOnMainThread(() =>
+            {
+                var alert = UIAlertController.Create(
+                    "Error",
+                    $"Failed to load hot dogs: {ex.Message}",
+                    UIAlertControllerStyle.Alert
+                );
+                alert.AddAction(UIAlertAction.Create("OK", UIAlertActionStyle.Default, null));
+                PresentViewController(alert, animated: true, completionHandler: null);
+            });
+        }
     }
 
     // How many rows in the table

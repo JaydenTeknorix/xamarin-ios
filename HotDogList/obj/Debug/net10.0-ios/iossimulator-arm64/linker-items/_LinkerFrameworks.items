@@ -25,6 +25,9 @@
     <_LinkerFrameworks Include="QuickLook">
       <IsWeak>false</IsWeak>
     </_LinkerFrameworks>
+    <_LinkerFrameworks Include="Security">
+      <IsWeak>false</IsWeak>
+    </_LinkerFrameworks>
     <_LinkerFrameworks Include="UIKit">
       <IsWeak>false</IsWeak>
     </_LinkerFrameworks>
