@@ -25,5 +25,11 @@
     <ReferenceNativeSymbol Include="_xamarin_get_block_descriptor">
       <SymbolType>Function</SymbolType>
     </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_xamarin_NativeHandle_objc_msgSend_NativeHandle_exception">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_xamarin_NativeHandle_objc_msgSendSuper_NativeHandle_exception">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
   </ItemGroup>
 </Project>

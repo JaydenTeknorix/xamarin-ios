@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HotDogList")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1b4078bdad751a591c2bd948cc0d6c540c0e0ed9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+84a5d123236b1cf1277943dcb1b5094eb0b80240")]
 [assembly: System.Reflection.AssemblyProductAttribute("HotDogList")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HotDogList")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

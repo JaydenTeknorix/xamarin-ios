@@ -38,6 +38,8 @@
     </array>
     <key>XSAppIconAssets</key>
     <string>Assets.xcassets/AppIcon.appiconset</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>Select a photo to display on your profile.</string>
     <key>NSAppTransportSecurity</key>
     <dict>
         <key>NSExceptionDomains</key>
