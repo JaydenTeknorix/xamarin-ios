@@ -15418,7 +15418,7 @@ _mono_aot_file_info:
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0
-	.byte 14,137,159,234,155,44,159,124,78,123,89,245,224,182,83,176
+	.byte 80,0,99,74,153,151,27,48,196,93,248,83,216,158,198,137
 	.globl _mono_aot_module_System_Collections_info
 	.align 3
 _mono_aot_module_System_Collections_info:
