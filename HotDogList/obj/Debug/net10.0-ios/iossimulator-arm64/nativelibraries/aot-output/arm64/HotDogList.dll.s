@@ -18723,7 +18723,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "78BAC3D7-14CA-4D27-B5FD-5981B29AC6BB"
+	.asciz "0ABA84DB-D513-43C5-8738-0CB6AF1E2E6B"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -18820,7 +18820,7 @@ _mono_aot_file_info:
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0
-	.byte 191,13,111,110,220,110,226,96,145,68,63,225,130,95,98,175
+	.byte 167,122,165,36,83,206,124,251,104,11,5,66,162,103,54,158
 	.globl _mono_aot_module_HotDogList_info
 	.align 3
 _mono_aot_module_HotDogList_info:
