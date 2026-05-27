@@ -13,6 +13,9 @@
     <_LinkerFrameworks Include="CoreGraphics">
       <IsWeak>false</IsWeak>
     </_LinkerFrameworks>
+    <_LinkerFrameworks Include="CoreText">
+      <IsWeak>false</IsWeak>
+    </_LinkerFrameworks>
     <_LinkerFrameworks Include="Foundation">
       <IsWeak>false</IsWeak>
     </_LinkerFrameworks>

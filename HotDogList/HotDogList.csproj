@@ -13,4 +13,8 @@
     -->
     <TrimMode Condition="'$(Configuration)' == 'Release'">full</TrimMode>
   </PropertyGroup>
+
+  <ItemGroup>
+  </ItemGroup>
+
 </Project>

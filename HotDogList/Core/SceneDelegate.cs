@@ -39,8 +39,17 @@ public class SceneDelegate : UIResponder, IUIWindowSceneDelegate {
 				selectedImage: UIImage.GetSystemImage("person.fill")
 			);
 
+			// Tab 4 — Users
+			var userVC = new UserListViewController();
+			var userNav = new UINavigationController(userVC);
+			userNav.TabBarItem = new UITabBarItem(
+				title: "Users",
+				image: UIImage.GetSystemImage("person.2"),
+				selectedImage: UIImage.GetSystemImage("person.2.fill")
+			);
+
 			var tabBar = new UITabBarController();
-			tabBar.ViewControllers = new UIViewController[] { hotDogsNav, homeNav, profileNav };
+			tabBar.ViewControllers = new UIViewController[] { hotDogsNav, homeNav, profileNav, userNav };
 
 			Window.RootViewController = tabBar;
 			Window.MakeKeyAndVisible ();
